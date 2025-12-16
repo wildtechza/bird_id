@@ -34,7 +34,7 @@ export default function RootLayout({
         <header className="w-full flex justify-center items-center mb-4">
           <div className="bg-[#E07A1F] inline-block">
             <Image
-              src="/bird_id.svg"
+              src="/bird_id2.svg"
               alt="Bird Id"
               width={400}
               height={180}
