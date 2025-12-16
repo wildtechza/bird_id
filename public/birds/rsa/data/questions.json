@@ -251,6 +251,82 @@
         {
             "image": "/birds/rsa/images/96_yellow-billed_duck.jpg",
             "answer": 96
+        },
+        {
+            "image": "/birds/rsa/images/314_red-eyed_dove.jpg",
+            "answer": 314
+        },
+        {
+            "image": "/birds/rsa/images/402_brown-hooded_kingfisher.jpg",
+            "answer": 402
+        },
+        {
+            "image": "/birds/rsa/images/4142_southern_grey-headed_sparrow.jpg",
+            "answer": 4142
+        },
+        {
+            "image": "/birds/rsa/images/418_common_hoopoe.jpg",
+            "answer": 418
+        },
+        {
+            "image": "/birds/rsa/images/431_black-collared_barbet.jpg",
+            "answer": 431
+        },
+        {
+            "image": "/birds/rsa/images/521_black-headed_oriole.jpg",
+            "answer": 521
+        },
+        {
+            "image": "/birds/rsa/images/545_common_dark-capped_bulbul.jpg",
+            "answer": 545
+        },
+        {
+            "image": "/birds/rsa/images/550_yellow-bellied_greenbul.jpg",
+            "answer": 550
+        },
+        {
+            "image": "/birds/rsa/images/551_sombre_greenbul.jpg",
+            "answer": 551
+        },
+        {
+            "image": "/birds/rsa/images/627_green-backed_camaroptera.jpg",
+            "answer": 627
+        },
+        {
+            "image": "/birds/rsa/images/649_tawny-flanked_prinia.jpg",
+            "answer": 649
+        },
+        {
+            "image": "/birds/rsa/images/664_southern_black_flycatcher.jpg",
+            "answer": 664
+        },
+        {
+            "image": "/birds/rsa/images/686_cape_wagtail.jpg",
+            "answer": 686
+        },
+        {
+            "image": "/birds/rsa/images/707_southern_fiscal.jpg",
+            "answer": 707
+        },
+        {
+            "image": "/birds/rsa/images/72_hamerkop.jpg",
+            "answer": 72
+        },
+        {
+            "image": "/birds/rsa/images/766_olive_sunbird.jpg",
+            "answer": 766
+        },
+        {
+            "image": "/birds/rsa/images/791_spectacled_weaver.jpg",
+            "answer": 791
+        },
+        {
+            "image": "/birds/rsa/images/859_yellow-fronted_canary.jpg",
+            "answer": 859
+        },
+        {
+            "image": "/birds/rsa/images/89_egyptian_goose.jpg",
+            "answer": 89
         }
     ]
 }
