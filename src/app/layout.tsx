@@ -31,16 +31,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="w-full flex justify-center items-center mb-4">
-          <div className="bg-[#E07A1F] inline-block">
-            <Image
-              src="/bird_id2.svg"
-              alt="Bird Id"
-              width={400}
-              height={180}
-              priority
-            />
-          </div>
+        <header className="w-full bg-[#E07A1F] flex justify-center items-center mb-4">
+          <Image
+            src="/bird_id2.svg"
+            alt="Bird Id"
+            width={400}
+            height={180}
+            priority
+          />
         </header>
         <CentralDataProvider>
           <Suspense fallback={<div>Loading...</div>}>
