@@ -34,3 +34,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Static Export and `next` Assets
+
+This project is configured for static export via `output: 'export'` in `next.config.ts`. Build the static site and rename the assets folder from `_next` to `next` with:
+
+```bash
+npm run export:rename
+```
+
+This will:
+- Run `next build` to output static files into `out/`
+- Rename `out/_next` to `out/next`
+- Update references in text assets from `/_next/...` to `/next/...`
+
+Serve the contents of `out/` with any static file server.
