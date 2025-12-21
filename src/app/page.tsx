@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useCentralData } from "../context/CentralDataContext";
 
 export default function Home() {
-  const { questions } = useCentralData();
+  const { birdImages } = useCentralData();
   const router = useRouter();
   const [difficulty, setDifficulty] = useState<string>("beginner");
   const [count, setCount] = useState<number>(10);
@@ -26,7 +26,7 @@ export default function Home() {
           height={180}
           priority
         />
-        <span>{questions?.length} birds to identify!</span>
+        <span>{birdImages?.length} birds to identify!</span>
       </div>
 
       <h1 className="text-2xl font-bold">Choose Your Quiz</h1>
