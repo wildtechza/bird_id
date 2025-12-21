@@ -10,10 +10,17 @@ import { Bird } from "../../models/Bird";
 
 export default function Quiz() {
     const router = useRouter();
-    const { birdImages, birds } = useCentralData();
+    const { birdImages, birdSounds, birds } = useCentralData();
     const searchParams = useSearchParams();
     const difficulty = searchParams.get('difficulty') ?? "beginner";
-    const count = parseInt(searchParams.get('count') ?? "0", 10);
+    const countParam = searchParams.get('count') ?? "10";
+    const type = searchParams.get('type') ?? "images";
+    
+    // Determine which question source to use
+    const questionSource = type === "sounds" ? birdSounds : birdImages;
+    
+    // Handle "All" option or parse as number
+    const count = countParam === "All" ? (questionSource?.length ?? 0) : parseInt(countParam, 10);
 
     const [questionsToAsk, setQuestionsToAsk] = useState<Question[]>([]);
     const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
@@ -33,11 +40,11 @@ export default function Quiz() {
     }, [questionsToAsk, router, score, totalQuestions]);
 
     useEffect(() => {
-        if (birdImages) {
+        if (questionSource) {
             const temp: Question[] = [];
             while (temp.length < count) {
-                const idx = Math.floor(Math.random() * birdImages.length);
-                const picked = birdImages[idx];
+                const idx = Math.floor(Math.random() * questionSource.length);
+                const picked = questionSource[idx];
                 if (!temp.find(q => q.answer === picked.answer)) {
                     temp.push(picked);
                 }
@@ -46,7 +53,7 @@ export default function Quiz() {
             setQuestionsToAsk(temp);
             setTotalQuestions(count);
         }
-    }, [birdImages, count]);
+    }, [questionSource, count]);
 
     useEffect(() => {
         if (questionsToAsk.length > 0 && currentQuestion === null) {

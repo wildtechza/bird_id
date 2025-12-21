@@ -7,6 +7,7 @@ import { Bird } from "../models/Bird";
 // Define the shape of the context
 interface CentralDataContextType {
     birdImages: Question[] | null;
+    birdSounds: Question[] | null;
     birds: Bird[] | null;
 }
 
@@ -14,6 +15,7 @@ const CentralDataContext = createContext<CentralDataContextType | undefined>(und
 
 export function CentralDataProvider({ children }: { children: React.ReactNode }) {
     const [birdImages, setBirdImages] = useState<Question[] | null>(null);
+    const [birdSounds, setBirdSounds] = useState<Question[] | null>(null);
     const [birds, setBirds] = useState<Bird[] | null>(null);
 
     const fetchData = async () => {
@@ -29,10 +31,19 @@ export function CentralDataProvider({ children }: { children: React.ReactNode })
                 answer: bird.sabap2.toString()
             }));
 
+        // Generate questions from birds that have sounds
+        const birdSoundsData: Question[] = birdsData.data
+            .filter((bird: any) => bird.sound && bird.sound !== null)
+            .map((bird: any) => ({
+                image: bird.sound,
+                answer: bird.sabap2.toString()
+            }));
+
         setBirdImages(birdImagesData || []);
+        setBirdSounds(birdSoundsData || []);
         setBirds(birdsData.data || []);
 
-        console.log(`Fetched questions and birds data ${birdImagesData.length} ${birdsData.data.length}`);
+        console.log(`Fetched questions and birds data ${birdImagesData.length} ${birdSoundsData.length} ${birdsData.data.length}`);
     };
 
     useEffect(() => {
@@ -40,7 +51,7 @@ export function CentralDataProvider({ children }: { children: React.ReactNode })
     }, []);
 
     return (
-        <CentralDataContext.Provider value={{ birdImages, birds }}>
+        <CentralDataContext.Provider value={{ birdImages, birdSounds, birds }}>
             {children}
         </CentralDataContext.Provider>
     );
