@@ -32,12 +32,14 @@ export interface QuestionDisplayProps {
     question: Question;
     birds: Bird[];
     difficulty: string;
+    onAnswerChecked?: (isCorrect: boolean) => void;
 }
 
-export function QuestionDisplay({ question, birds, difficulty }: QuestionDisplayProps) {
+export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }: QuestionDisplayProps) {
     const [input, setInput] = useState("");
     const [suggestions, setSuggestions] = useState<Bird[]>([]);
     const [result, setResult] = useState<"correct" | "incorrect" | null>(null);
+    const [answerChecked, setAnswerChecked] = useState(false);
     const [feedbackMsg, setFeedbackMsg] = useState("");
     const [imageLoaded, setImageLoaded] = useState(false);
 
@@ -47,6 +49,7 @@ export function QuestionDisplay({ question, birds, difficulty }: QuestionDisplay
         setSuggestions([]);
         setResult(null);
         setFeedbackMsg("");
+        setAnswerChecked(false);
     }, [question]);
 
     function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
@@ -71,7 +74,8 @@ export function QuestionDisplay({ question, birds, difficulty }: QuestionDisplay
     function handleSelect(bird: Bird) {
         setInput(bird.fullName);
         setSuggestions([]);
-        if (String(bird.sabap2) === String(question.answer)) {
+        const isCorrect = String(bird.sabap2) === String(question.answer);
+        if (isCorrect) {
             setResult("correct");
             const msg = CORRECT_MESSAGES[Math.floor(Math.random() * CORRECT_MESSAGES.length)];
             setFeedbackMsg(msg);
@@ -79,6 +83,10 @@ export function QuestionDisplay({ question, birds, difficulty }: QuestionDisplay
             setResult("incorrect");
             const msg = INCORRECT_MESSAGES[Math.floor(Math.random() * INCORRECT_MESSAGES.length)];
             setFeedbackMsg(msg);
+        }
+        if (!answerChecked && onAnswerChecked) {
+            onAnswerChecked(isCorrect);
+            setAnswerChecked(true);
         }
     }
 

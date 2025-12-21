@@ -18,17 +18,19 @@ export default function Quiz() {
     const [questionsToAsk, setQuestionsToAsk] = useState<Question[]>([]);
     const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
     const [showAnswer, setShowAnswer] = useState(false);
+    const [score, setScore] = useState(0);
+    const [totalQuestions, setTotalQuestions] = useState(0);
 
     const askRandomQuestion = useCallback(() => {
         if (questionsToAsk.length === 0) {
-            router.push("/complete");
+            router.push(`/complete?score=${score}&total=${totalQuestions}`);
             return;
         }
         const idx = Math.floor(Math.random() * questionsToAsk.length);
         const picked = questionsToAsk[idx];
         setCurrentQuestion(picked);
         setQuestionsToAsk(prev => prev.filter((_, i) => i !== idx));
-    }, [questionsToAsk, router]);
+    }, [questionsToAsk, router, score, totalQuestions]);
 
     useEffect(() => {
         if (questions) {
@@ -42,6 +44,7 @@ export default function Quiz() {
             }
 
             setQuestionsToAsk(temp);
+            setTotalQuestions(count);
         }
     }, [questions, count]);
 
@@ -67,7 +70,16 @@ export default function Quiz() {
             {allDataReady &&
                 <main className="flex flex-col gap-4 items-center">
                     <h1 className="text-2xl font-bold">{questionsToAsk.length + 1} Questions to go!</h1>
-                    <QuestionDisplay question={currentQuestion} birds={birds} difficulty={difficulty} />
+                    <QuestionDisplay 
+                        question={currentQuestion} 
+                        birds={birds} 
+                        difficulty={difficulty}
+                        onAnswerChecked={(isCorrect) => {
+                            if (isCorrect) {
+                                setScore(prev => prev + 1);
+                            }
+                        }}
+                    />
                     {showAnswer && (
                         <div className="mt-2 text-lg font-semibold text-blue-700">
                             Answer: {correctBird?.fullName || currentQuestion?.answer}
