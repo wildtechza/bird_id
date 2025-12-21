@@ -4,13 +4,13 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   width="566.84155"
-   viewBox="0 0 566.84156 256.21936"
+   width="600"
+   viewBox="0 0 600.00001 200"
    enable-background="new 0 0 1536 1024"
    xml:space="preserve"
    sodipodi:docname="bird_id.svg"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   height="256.21936"
+   height="200"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -1132,14 +1132,14 @@
 
 
 <rect
-   style="fill:#e07a1f;fill-opacity:1;stroke-width:7.50387"
+   style="fill:#e07a1f;fill-opacity:1;stroke-width:6.82086"
    id="rect1"
-   width="566.84155"
-   height="256.21936"
+   width="600"
+   height="200"
    x="0"
    y="0" /><g
    id="g1"
-   transform="matrix(0.51062666,0,0,0.53032399,256.37441,26.751727)"><path
+   transform="matrix(0.4024494,0,0,0.43344016,294.11436,15.739865)"><path
      fill="#080707"
      opacity="1"
      stroke="none"
@@ -3356,26 +3356,26 @@
 <text
    xml:space="preserve"
    id="text1092"
-   style="font-size:192px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1092);display:inline;fill:#ffffff;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
-   transform="matrix(0.52802803,0,0,0.57284993,-184.03328,-147.45468)"><tspan
+   style="font-size:135.762px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1092);display:inline;fill:#ffffff;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+   transform="matrix(0.52802803,0,0,0.57284993,-153.1164,-133.41527)"><tspan
      x="811.6543"
-     y="493.21557"
-     id="tspan2"><tspan
+     y="442.046"
+     id="tspan3"><tspan
        style="-inkscape-font-specification:sans-serif"
        id="tspan1">Bird Id</tspan></tspan></text><text
    xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.3119px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:0.484124;stroke-opacity:1"
-   x="433.80719"
-   y="191.78452"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:0.484124;stroke-opacity:1"
+   x="398.96753"
+   y="166.53009"
    id="text1093"
    transform="scale(1.065969,0.93811358)"><tspan
      sodipodi:role="line"
      id="tspan1093"
-     x="433.80719"
-     y="191.78452"
-     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:41.3119px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';fill:#ffffff;stroke:none;stroke-width:0.484124;stroke-opacity:1">Quiz</tspan></text><g
+     x="398.96753"
+     y="166.53009"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';fill:#ffffff;stroke:none;stroke-width:0.484124;stroke-opacity:1">Quiz</tspan></text><g
    id="g2"
-   transform="matrix(0.36928587,0,0,0.37088842,244.00714,83.724902)"><g
+   transform="matrix(0.36928587,0,0,0.37088842,206.86918,60.033385)"><g
      id="g7-9"
      transform="matrix(0.18748895,0,0,0.19187924,473.13016,196.85404)"
      style="fill:#ffffff"><path
