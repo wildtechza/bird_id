@@ -24,7 +24,7 @@ export function MultipleChoice({ birds, currentQuestion, onMultipleChoiceChange 
             temp.push(correctBird);
         }
 
-        while (temp.length < 5) {
+        while (temp.length < 4) {
             const idx = Math.floor(Math.random() * birds.length);
             const picked = birds[idx];
             if (!temp.find(b => b.sabap2 === picked.sabap2)) {
@@ -44,11 +44,11 @@ export function MultipleChoice({ birds, currentQuestion, onMultipleChoiceChange 
     }
 
     return (
-        <div className="space-y-3">
+        <div className="space-y-2">
             {options.map((bird) => (
                 <label
                     key={bird.sabap2}
-                    className={`flex items-center p-4 rounded-lg border-2 cursor-pointer transition-all duration-200 ${
+                    className={`flex items-center px-4 py-2 rounded-lg border-2 cursor-pointer transition-all duration-200 ${
                         selectedBird?.sabap2 === bird.sabap2
                             ? 'border-blue-500 bg-blue-50 shadow-md'
                             : 'border-gray-200 bg-white hover:border-blue-300 hover:bg-gray-50'
