@@ -63,9 +63,9 @@ export default function Quiz() {
     const allDataReady = currentQuestion && birds;
 
     return (
-        <div className="font-sans flex flex-col min-h-screen p-8 pb-20 sm:p-20">
+        <div className="font-sans flex flex-col min-h-screen px-4 sm:px-8">
             {allDataReady &&
-                <main className="flex flex-col gap-8 items-center">
+                <main className="flex flex-col gap-4 items-center">
                     <h1 className="text-2xl font-bold">{questionsToAsk.length + 1} Questions to go!</h1>
                     <QuestionDisplay question={currentQuestion} birds={birds} difficulty={difficulty} />
                     {showAnswer && (

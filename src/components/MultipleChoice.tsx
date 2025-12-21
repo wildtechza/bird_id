@@ -44,11 +44,15 @@ export function MultipleChoice({ birds, currentQuestion, onMultipleChoiceChange 
     }
 
     return (
-        <div className="space-y-2">
+        <div className="space-y-3">
             {options.map((bird) => (
                 <label
                     key={bird.sabap2}
-                    className="flex items-center space-x-2 cursor-pointer"
+                    className={`flex items-center p-4 rounded-lg border-2 cursor-pointer transition-all duration-200 ${
+                        selectedBird?.sabap2 === bird.sabap2
+                            ? 'border-blue-500 bg-blue-50 shadow-md'
+                            : 'border-gray-200 bg-white hover:border-blue-300 hover:bg-gray-50'
+                    }`}
                 >
                     <input
                         type="radio"
@@ -56,9 +60,9 @@ export function MultipleChoice({ birds, currentQuestion, onMultipleChoiceChange 
                         value={bird.sabap2}
                         checked={selectedBird?.sabap2 == bird.sabap2}
                         onChange={() => onChange(bird)}
-                        className="form-radio text-blue-600"
+                        className="w-5 h-5 text-blue-600 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 cursor-pointer"
                     />
-                    <span>{bird.fullName}</span>
+                    <span className="ml-3 text-gray-800 font-medium">{bird.fullName}</span>
                 </label>
             ))}
         </div>

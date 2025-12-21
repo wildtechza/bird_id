@@ -31,9 +31,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="w-full bg-[#E07A1F] flex justify-center items-center mb-4">
+        <header className="w-full bg-[#E07A1F] flex justify-center items-center">
           <Image
-            src="/bird_id2.svg"
+            src="/bird_id.png"
             alt="Bird Id"
             width={400}
             height={180}
