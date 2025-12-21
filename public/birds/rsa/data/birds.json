@@ -45,7 +45,7 @@
       "sasolPageNo": 36,
       "roberts6Sort": 14.2,
       "sabap2": 1002,
-      "fullName": "Buller\u2019s Albatross",
+      "fullName": "Buller’s Albatross",
       "scientificName": "Thalassarche bulleri",
       "robertsVII": 493,
       "robertsVI": "(-)",
@@ -136,7 +136,7 @@
       "sasolPageNo": 34,
       "roberts6Sort": 11.1,
       "sabap2": 1081,
-      "fullName": "Salvin\u2019s Albatross",
+      "fullName": "Salvin’s Albatross",
       "scientificName": "Thalassarche salvini",
       "robertsVII": 491,
       "robertsVI": "(-)",
@@ -227,7 +227,7 @@
       "sasolPageNo": 344,
       "roberts6Sort": 649,
       "sabap2": 624,
-      "fullName": "Rudd\u2019s Apalis",
+      "fullName": "Rudd’s Apalis",
       "scientificName": "Apalis ruddi",
       "robertsVII": 701,
       "robertsVI": "649",
@@ -258,7 +258,8 @@
       "robertsVII": 276,
       "robertsVI": "294",
       "afrikaans": "Bontelsie",
-      "zulu": "usipheshula"
+      "zulu": "usipheshula",
+      "image": "/birds/rsa/images/269_pied_avocet.jpg"
     },
     {
       "alphaSort": 21,
@@ -310,7 +311,8 @@
       "robertsVII": 68,
       "robertsVI": "464",
       "afrikaans": "Rooikophoutkapper",
-      "zulu": "usibagwebe, isinqonqotho, isandondondwane"
+      "zulu": "usibagwebe, isinqonqotho, isandondondwane",
+      "image": "/birds/rsa/images/431_black-collared_barbet.jpg"
     },
     {
       "alphaSort": 25,
@@ -323,7 +325,8 @@
       "robertsVII": 69,
       "robertsVI": "473",
       "afrikaans": "Kuifkophoutkapper",
-      "zulu": "usiqhovana"
+      "zulu": "usiqhovana",
+      "image": "/birds/rsa/images/439_crested_barbet.jpg"
     },
     {
       "alphaSort": 26,
@@ -349,7 +352,8 @@
       "robertsVII": 60,
       "robertsVI": "466",
       "afrikaans": "Witoorhoutkapper",
-      "zulu": "intunjana"
+      "zulu": "intunjana",
+      "image": "/birds/rsa/images/433_white-eared_barbet.jpg"
     },
     {
       "alphaSort": 28,
@@ -409,7 +413,7 @@
       "sasolPageNo": 360,
       "roberts6Sort": 704,
       "sabap2": 676,
-      "fullName": "Woodwards\u2019 Batis",
+      "fullName": "Woodwards’ Batis",
       "scientificName": "Batis fratrum",
       "robertsVII": 564,
       "robertsVI": "704",
@@ -440,7 +444,8 @@
       "robertsVII": 107,
       "robertsVI": "438",
       "afrikaans": "Europese Byvreter",
-      "zulu": "inkothanyosi"
+      "zulu": "inkothanyosi",
+      "image": "/birds/rsa/images/404_european_bee-eater.jpg"
     },
     {
       "alphaSort": 35,
@@ -518,7 +523,8 @@
       "robertsVII": 100,
       "robertsVI": "443",
       "afrikaans": "Rooikeelbyvreter",
-      "zulu": "inkotha, uswenka"
+      "zulu": "inkotha, uswenka",
+      "image": "/birds/rsa/images/409_white-fronted_bee-eater.jpg"
     },
     {
       "alphaSort": 41,
@@ -557,7 +563,8 @@
       "robertsVII": 857,
       "robertsVI": "827",
       "afrikaans": "Kaapse Flap",
-      "zulu": "umambathilanga"
+      "zulu": "umambathilanga",
+      "image": "/birds/rsa/images/810_yellow_bishop.jpg"
     },
     {
       "alphaSort": 44,
@@ -648,7 +655,8 @@
       "robertsVII": 552,
       "robertsVI": "746",
       "afrikaans": "Bokmakierie",
-      "zulu": "inkovu"
+      "zulu": "inkovu",
+      "image": "/birds/rsa/images/722_bokmakierie.jpg"
     },
     {
       "alphaSort": 51,
@@ -725,7 +733,7 @@
       "scientificName": "Smithornis capensis",
       "robertsVII": 533,
       "robertsVI": "490",
-      "afrikaans": "Bre\u00ebbek",
+      "afrikaans": "Breëbek",
       "zulu": "umasikulufu"
     },
     {
@@ -778,7 +786,8 @@
       "robertsVII": 616,
       "robertsVI": "566",
       "afrikaans": "Kaapse Tiptol",
-      "zulu": "iphothwelimehlamhlophe"
+      "zulu": "iphothwelimehlamhlophe",
+      "image": "/birds/rsa/images/543_cape_bulbul.jpg"
     },
     {
       "alphaSort": 61,
@@ -791,7 +800,8 @@
       "robertsVII": 614,
       "robertsVI": "568",
       "afrikaans": "Swartoogtiptol",
-      "zulu": "iphothwe"
+      "zulu": "iphothwe",
+      "image": "/birds/rsa/images/545_common_dark-capped_bulbul.jpg"
     },
     {
       "alphaSort": 62,
@@ -804,7 +814,8 @@
       "robertsVII": 948,
       "robertsVI": "885",
       "afrikaans": "Rooivlerkstreepkoppie",
-      "zulu": "usokhandamidwonsundu"
+      "zulu": "usokhandamidwonsundu",
+      "image": "/birds/rsa/images/873_cape_bunting.jpg"
     },
     {
       "alphaSort": 63,
@@ -894,7 +905,7 @@
       "scientificName": "Malaconotus blanchoti",
       "robertsVII": 557,
       "robertsVI": "751",
-      "afrikaans": "Spookvo\u00ebl",
+      "afrikaans": "Spookvoël",
       "zulu": "usipoki"
     },
     {
@@ -942,7 +953,7 @@
       "sasolPageNo": 156,
       "roberts6Sort": 231,
       "sabap2": 219,
-      "fullName": "Denham\u2019s Bustard",
+      "fullName": "Denham’s Bustard",
       "scientificName": "Neotis denhami",
       "robertsVII": 194,
       "robertsVI": "231",
@@ -968,7 +979,7 @@
       "sasolPageNo": 156,
       "roberts6Sort": 232,
       "sabap2": 218,
-      "fullName": "Ludwig\u2019s Bustard",
+      "fullName": "Ludwig’s Bustard",
       "scientificName": "Neotis ludwigii",
       "robertsVII": 195,
       "robertsVI": "232",
@@ -1024,7 +1035,7 @@
       "scientificName": "Buteo buteo",
       "robertsVII": 381,
       "robertsVI": "149",
-      "afrikaans": "Bruinjakkalsvo\u00ebl",
+      "afrikaans": "Bruinjakkalsvoël",
       "zulu": "isanxa"
     },
     {
@@ -1063,7 +1074,7 @@
       "scientificName": "Buteo trizonatus",
       "robertsVII": 382,
       "robertsVI": "150",
-      "afrikaans": "Bosjakkalsvo\u00ebl",
+      "afrikaans": "Bosjakkalsvoël",
       "zulu": "uklebe lwehlathi"
     },
     {
@@ -1076,7 +1087,7 @@
       "scientificName": "Buteo rufofuscus",
       "robertsVII": 385,
       "robertsVI": "152",
-      "afrikaans": "Rooiborsjakkalsvo\u00ebl",
+      "afrikaans": "Rooiborsjakkalsvoël",
       "zulu": "inhlandlokazi"
     },
     {
@@ -1102,7 +1113,7 @@
       "scientificName": "Buteo auguralis",
       "robertsVII": null,
       "robertsVI": null,
-      "afrikaans": "Rooinekjakkalsvo\u00ebl",
+      "afrikaans": "Rooinekjakkalsvoël",
       "zulu": "isikhobotho saseSahel"
     },
     {
@@ -1115,8 +1126,9 @@
       "scientificName": "Camaroptera brachyura",
       "robertsVII": 704,
       "robertsVI": "657",
-      "afrikaans": "Groenrugkw\u00eakw\u00eavo\u00ebl",
-      "zulu": "ibhoyi, imbuzane"
+      "afrikaans": "Groenrugkwêkwêvoël",
+      "zulu": "ibhoyi, imbuzane",
+      "image": "/birds/rsa/images/627_green-backed_camaroptera.jpg"
     },
     {
       "alphaSort": 87,
@@ -1128,7 +1140,7 @@
       "scientificName": "Camaroptera brevicaudata",
       "robertsVII": 705,
       "robertsVI": "(-)",
-      "afrikaans": "Grysrugkw\u00eakw\u00eavo\u00ebl",
+      "afrikaans": "Grysrugkwêkwêvoël",
       "zulu": "imbuzanemhlanempunga"
     },
     {
@@ -1259,7 +1271,8 @@
       "robertsVII": 934,
       "robertsVI": "869",
       "afrikaans": "Geeloogkanarie",
-      "zulu": "umbhalanomadevu"
+      "zulu": "umbhalanomadevu",
+      "image": "/birds/rsa/images/859_yellow-fronted_canary.jpg"
     },
     {
       "alphaSort": 98,
@@ -1293,7 +1306,7 @@
       "sasolPageNo": 318,
       "roberts6Sort": 594,
       "sabap2": 574,
-      "fullName": "Arnot\u2019s Chat",
+      "fullName": "Arnot’s Chat",
       "scientificName": "Myrmecocichla arnotti",
       "robertsVII": 793,
       "robertsVI": "594",
@@ -1362,7 +1375,7 @@
       "scientificName": "Thamnolaea cinnamomeiventris",
       "robertsVII": 794,
       "robertsVI": 593,
-      "afrikaans": "Dassievo\u00ebl",
+      "afrikaans": "Dassievoël",
       "zulu": "isikhwelemaweni"
     },
     {
@@ -1376,7 +1389,8 @@
       "robertsVII": 783,
       "robertsVI": "586",
       "afrikaans": "Bergwagter",
-      "zulu": "ikhwelentabeni"
+      "zulu": "ikhwelentabeni",
+      "image": "/birds/rsa/images/564_mountain_chat_wheatear.jpg"
     },
     {
       "alphaSort": 107,
@@ -1462,7 +1476,7 @@
       "sasolPageNo": 350,
       "roberts6Sort": 677,
       "sabap2": 646,
-      "fullName": "Levaillant\u2019s Cisticola",
+      "fullName": "Levaillant’s Cisticola",
       "scientificName": "Cisticola tinniens",
       "robertsVII": 682,
       "robertsVI": "677",
@@ -1649,7 +1663,8 @@
       "robertsVII": 427,
       "robertsVI": "55",
       "afrikaans": "Witborsduiker",
-      "zulu": "iwondelimhlophe"
+      "zulu": "iwondelimhlophe",
+      "image": "/birds/rsa/images/47_great_white_breasted_cormorant.jpg"
     },
     {
       "alphaSort": 128,
@@ -1683,12 +1698,13 @@
       "sasolPageNo": 238,
       "roberts6Sort": 391,
       "sabap2": 4131,
-      "fullName": "Burchell\u2019s Coucal",
+      "fullName": "Burchell’s Coucal",
       "scientificName": "Centropus burchellii",
       "robertsVII": 131,
       "robertsVI": "391",
       "afrikaans": "Gewone Vleiloerie",
-      "zulu": "ufukwe, umgugwane"
+      "zulu": "ufukwe, umgugwane",
+      "image": "/birds/rsa/images/4131_burchells_coucal.jpg"
     },
     {
       "alphaSort": 131,
@@ -1722,7 +1738,7 @@
       "sasolPageNo": 202,
       "roberts6Sort": 299,
       "sabap2": 276,
-      "fullName": "Burchell\u2019s Courser",
+      "fullName": "Burchell’s Courser",
       "scientificName": "Cursorius rufus",
       "robertsVII": 302,
       "robertsVI": "299",
@@ -1748,7 +1764,7 @@
       "sasolPageNo": 202,
       "roberts6Sort": 300,
       "sabap2": 277,
-      "fullName": "Temminck\u2019s Courser",
+      "fullName": "Temminck’s Courser",
       "scientificName": "Cursorius temminckii",
       "robertsVII": 303,
       "robertsVI": "300",
@@ -1787,7 +1803,7 @@
       "sasolPageNo": 150,
       "roberts6Sort": 215,
       "sabap2": 202,
-      "fullName": "Baillon\u2019s Crake",
+      "fullName": "Baillon’s Crake",
       "scientificName": "Zapornia pusilla",
       "robertsVII": 218,
       "robertsVI": "215",
@@ -1869,7 +1885,7 @@
       "scientificName": "Grus paradisea",
       "robertsVII": 206,
       "robertsVI": "208",
-      "afrikaans": "Bloukraanvo\u00ebl",
+      "afrikaans": "Bloukraanvoël",
       "zulu": "indwe, uzuka"
     },
     {
@@ -1895,7 +1911,7 @@
       "scientificName": "Grus carunculata",
       "robertsVII": 207,
       "robertsVI": "207",
-      "afrikaans": "Lelkraanvo\u00ebl",
+      "afrikaans": "Lelkraanvoël",
       "zulu": "ubhamukwe"
     },
     {
@@ -2064,7 +2080,7 @@
       "scientificName": "Clamator jacobinus",
       "robertsVII": 112,
       "robertsVI": "382",
-      "afrikaans": "Bontnuwejaarsvo\u00ebl",
+      "afrikaans": "Bontnuwejaarsvoël",
       "zulu": "inkanku"
     },
     {
@@ -2073,12 +2089,13 @@
       "sasolPageNo": 236,
       "roberts6Sort": 385,
       "sabap2": 351,
-      "fullName": "Klaas\u2019s Cuckoo",
+      "fullName": "Klaas’s Cuckoo",
       "scientificName": "Chrysococcyx klaas",
       "robertsVII": 123,
       "robertsVI": "385",
       "afrikaans": "Meitjie",
-      "zulu": "umazalashiye"
+      "zulu": "umazalashiye",
+      "image": "/birds/rsa/images/351_klaas_cuckoo.jpg"
     },
     {
       "alphaSort": 161,
@@ -2099,11 +2116,11 @@
       "sasolPageNo": 234,
       "roberts6Sort": 381,
       "sabap2": 347,
-      "fullName": "Levaillant\u2019s Cuckoo",
+      "fullName": "Levaillant’s Cuckoo",
       "scientificName": "Clamator levaillantii",
       "robertsVII": 113,
       "robertsVI": "381",
-      "afrikaans": "Gestreepte Nuwejaarsvo\u00ebl",
+      "afrikaans": "Gestreepte Nuwejaarsvoël",
       "zulu": "inkankemidwa"
     },
     {
@@ -2207,7 +2224,7 @@
       "scientificName": "Anhinga rufa",
       "robertsVII": 424,
       "robertsVI": "60",
-      "afrikaans": "Slanghalsvo\u00ebl",
+      "afrikaans": "Slanghalsvoël",
       "zulu": "inyoninyoka"
     },
     {
@@ -2260,7 +2277,8 @@
       "robertsVII": 189,
       "robertsVI": "358",
       "afrikaans": "Groenvlekduifie",
-      "zulu": "isikhombazane sehlanze, ingophozi"
+      "zulu": "isikhombazane sehlanze, ingophozi",
+      "image": "/birds/rsa/images/321_emerald-spotted_wood_dove.jpg"
     },
     {
       "alphaSort": 175,
@@ -2325,7 +2343,8 @@
       "robertsVII": 188,
       "robertsVI": "352",
       "afrikaans": "Grootringduif",
-      "zulu": "ihobhelimehlabomvu"
+      "zulu": "ihobhelimehlabomvu",
+      "image": "/birds/rsa/images/314_red-eyed_dove.jpg"
     },
     {
       "alphaSort": 180,
@@ -2481,7 +2500,8 @@
       "robertsVII": 33,
       "robertsVI": "104",
       "afrikaans": "Geelbekeend",
-      "zulu": "idadelimlomophuzi"
+      "zulu": "idadelimlomophuzi",
+      "image": "/birds/rsa/images/96_yellow-billed_duck.jpg"
     },
     {
       "alphaSort": 192,
@@ -2528,7 +2548,7 @@
       "sasolPageNo": 102,
       "roberts6Sort": 138,
       "sabap2": 140,
-      "fullName": "Ayres\u2019s Hawk Eagle",
+      "fullName": "Ayres’s Hawk Eagle",
       "scientificName": "Hieraaetus ayresii",
       "robertsVII": 391,
       "robertsVI": "138",
@@ -2611,7 +2631,8 @@
       "robertsVII": 395,
       "robertsVI": "139",
       "afrikaans": "Langkuifarend",
-      "zulu": "isiphungumangathi"
+      "zulu": "isiphungumangathi",
+      "image": "/birds/rsa/images/138_long-crested_eagle.jpg"
     },
     {
       "alphaSort": 202,
@@ -2623,7 +2644,7 @@
       "scientificName": "Polemaetus bellicosus",
       "robertsVII": 394,
       "robertsVI": "140",
-      "afrikaans": "Bre\u00ebkoparend",
+      "afrikaans": "Breëkoparend",
       "zulu": "inkosiyezinkozi, isihuhwa"
     },
     {
@@ -2671,12 +2692,13 @@
       "sasolPageNo": 100,
       "roberts6Sort": 131,
       "sabap2": 133,
-      "fullName": "Verreaux\u2019s Eagle",
+      "fullName": "Verreaux’s Eagle",
       "scientificName": "Aquila verreauxii",
       "robertsVII": 389,
       "robertsVI": "131",
       "afrikaans": "Witkruisarend",
-      "zulu": "ukhozolumnyama"
+      "zulu": "ukhozolumnyama",
+      "image": "/birds/rsa/images/133_verreauxs_eagle.jpg"
     },
     {
       "alphaSort": 207,
@@ -2684,7 +2706,7 @@
       "sasolPageNo": 106,
       "roberts6Sort": 135,
       "sabap2": 137,
-      "fullName": "Wahlberg\u2019s Eagle",
+      "fullName": "Wahlberg’s Eagle",
       "scientificName": "Hieraaetus wahlbergi",
       "robertsVII": 393,
       "robertsVI": "135",
@@ -2715,7 +2737,8 @@
       "robertsVII": 432,
       "robertsVI": "67",
       "afrikaans": "Kleinwitreier",
-      "zulu": "ingeklencane"
+      "zulu": "ingeklencane",
+      "image": "/birds/rsa/images/59_little_egret.jpg"
     },
     {
       "alphaSort": 210,
@@ -2840,7 +2863,7 @@
       "sasolPageNo": 124,
       "roberts6Sort": 177,
       "sabap2": 992,
-      "fullName": "Eleonora\u2019s Falcon",
+      "fullName": "Eleonora’s Falcon",
       "scientificName": "Falco eleonorae",
       "robertsVII": 407,
       "robertsVI": "177",
@@ -3022,7 +3045,7 @@
       "sasolPageNo": 410,
       "roberts6Sort": 841,
       "sabap2": 835,
-      "fullName": "Jameson\u2019s Firefinch",
+      "fullName": "Jameson’s Firefinch",
       "scientificName": "Lagonosticta rhodopareia",
       "robertsVII": 887,
       "robertsVI": "841",
@@ -3053,7 +3076,8 @@
       "robertsVII": 576,
       "robertsVI": "732",
       "afrikaans": "Fiskaallaksman",
-      "zulu": "iqola, ilunga"
+      "zulu": "iqola, ilunga",
+      "image": "/birds/rsa/images/707_southern_fiscal.jpg"
     },
     {
       "alphaSort": 236,
@@ -3156,8 +3180,9 @@
       "scientificName": "Muscicapa adusta",
       "robertsVII": 758,
       "robertsVI": "690",
-      "afrikaans": "Donkervlie\u00ebvanger",
-      "zulu": "usikhothambuzane"
+      "afrikaans": "Donkervlieëvanger",
+      "zulu": "usikhothambuzane",
+      "image": "/birds/rsa/images/655_african_dusky_flycatcher.jpg"
     },
     {
       "alphaSort": 244,
@@ -3169,7 +3194,7 @@
       "scientificName": "Terpsiphone viridis",
       "robertsVII": 541,
       "robertsVI": "710",
-      "afrikaans": "Paradysvlie\u00ebvanger",
+      "afrikaans": "Paradysvlieëvanger",
       "zulu": "inzwece"
     },
     {
@@ -3182,7 +3207,7 @@
       "scientificName": "Fraseria caerulescens",
       "robertsVII": 759,
       "robertsVI": "691",
-      "afrikaans": "Blougrysvlie\u00ebvanger",
+      "afrikaans": "Blougrysvlieëvanger",
       "zulu": "usikhothamlotha"
     },
     {
@@ -3195,7 +3220,7 @@
       "scientificName": "Bias musicus",
       "robertsVII": 561,
       "robertsVI": "699",
-      "afrikaans": "Witpensvlie\u00ebvanger",
+      "afrikaans": "Witpensvlieëvanger",
       "zulu": "unosichongo"
     },
     {
@@ -3208,7 +3233,7 @@
       "scientificName": "Trochocercus cyanomelas",
       "robertsVII": 540,
       "robertsVI": "708",
-      "afrikaans": "Bloukuifvlie\u00ebvanger",
+      "afrikaans": "Bloukuifvlieëvanger",
       "zulu": "uqholwane"
     },
     {
@@ -3221,7 +3246,7 @@
       "scientificName": "Agricola infuscatus",
       "robertsVII": 753,
       "robertsVI": "697",
-      "afrikaans": "Grootvlie\u00ebvanger",
+      "afrikaans": "Grootvlieëvanger",
       "zulu": "isagundwanesikhulu"
     },
     {
@@ -3234,7 +3259,7 @@
       "scientificName": "Ficedula albicollis",
       "robertsVII": 761,
       "robertsVI": "692",
-      "afrikaans": "Withalsvlie\u00ebvanger",
+      "afrikaans": "Withalsvlieëvanger",
       "zulu": "usonambuzane waseYurobhu"
     },
     {
@@ -3247,7 +3272,7 @@
       "scientificName": "Ficedula hypoleuca",
       "robertsVII": null,
       "robertsVI": null,
-      "afrikaans": "Bontvlie\u00ebvanger",
+      "afrikaans": "Bontvlieëvanger",
       "zulu": "usonambuzanolunga"
     },
     {
@@ -3260,7 +3285,7 @@
       "scientificName": "Stenostira scita",
       "robertsVII": 625,
       "robertsVI": "706",
-      "afrikaans": "Feevlie\u00ebvanger",
+      "afrikaans": "Feevlieëvanger",
       "zulu": "uqholompunga"
     },
     {
@@ -3273,7 +3298,7 @@
       "scientificName": "Sigelus silens",
       "robertsVII": 756,
       "robertsVI": "698",
-      "afrikaans": "Fiskaalvlie\u00ebvanger",
+      "afrikaans": "Fiskaalvlieëvanger",
       "zulu": "isaqola"
     },
     {
@@ -3286,7 +3311,7 @@
       "scientificName": "Fraseria plumbea",
       "robertsVII": 760,
       "robertsVI": "693",
-      "afrikaans": "Waaierstertvlie\u00ebvanger",
+      "afrikaans": "Waaierstertvlieëvanger",
       "zulu": "umantuluza"
     },
     {
@@ -3295,11 +3320,11 @@
       "sasolPageNo": null,
       "roberts6Sort": null,
       "sabap2": 679,
-      "fullName": "Livingstone\u2019s Flycatcher ",
+      "fullName": "Livingstone’s Flycatcher ",
       "scientificName": "Erythrocercus livingstonei",
       "robertsVII": null,
       "robertsVI": null,
-      "afrikaans": "Rooistertvlie\u00ebvanger",
+      "afrikaans": "Rooistertvlieëvanger",
       "zulu": "umantuluzosisilesibomvu"
     },
     {
@@ -3312,7 +3337,7 @@
       "scientificName": "Bradornis mariquensis",
       "robertsVII": 754,
       "robertsVI": "695",
-      "afrikaans": "Maricovlie\u00ebvanger",
+      "afrikaans": "Maricovlieëvanger",
       "zulu": "isagundwane saseNtshonalanga"
     },
     {
@@ -3325,7 +3350,7 @@
       "scientificName": "Agricola pallidus",
       "robertsVII": 752,
       "robertsVI": "696",
-      "afrikaans": "Muiskleurvlie\u00ebvanger",
+      "afrikaans": "Muiskleurvlieëvanger",
       "zulu": "isagundwane"
     },
     {
@@ -3338,8 +3363,9 @@
       "scientificName": "Melaenornis pammelaina",
       "robertsVII": 755,
       "robertsVI": "694",
-      "afrikaans": "Swartvlie\u00ebvanger",
-      "zulu": "ummbesi"
+      "afrikaans": "Swartvlieëvanger",
+      "zulu": "ummbesi",
+      "image": "/birds/rsa/images/664_southern_black_flycatcher.jpg"
     },
     {
       "alphaSort": 258,
@@ -3351,7 +3377,7 @@
       "scientificName": "Muscicapa striata",
       "robertsVII": 757,
       "robertsVI": "689",
-      "afrikaans": "Europese Vlie\u00ebvanger",
+      "afrikaans": "Europese Vlieëvanger",
       "zulu": "usonambuzane"
     },
     {
@@ -3425,7 +3451,7 @@
       "sasolPageNo": 138,
       "roberts6Sort": 191,
       "sabap2": 177,
-      "fullName": "Shelley\u2019s Francolin",
+      "fullName": "Shelley’s Francolin",
       "scientificName": "Scleroptila shelleyi",
       "robertsVII": 7,
       "robertsVI": "191",
@@ -3442,7 +3468,7 @@
       "scientificName": "Fregata andrewsi",
       "robertsVII": null,
       "robertsVI": null,
-      "afrikaans": "Witpensfregatvo\u00ebl",
+      "afrikaans": "Witpensfregatvoël",
       "zulu": "ikhwebula lezulu"
     },
     {
@@ -3455,7 +3481,7 @@
       "scientificName": "Fregata minor",
       "robertsVII": 470,
       "robertsVI": "61",
-      "afrikaans": "Grootfregatvo\u00ebl",
+      "afrikaans": "Grootfregatvoël",
       "zulu": "ikhwebulelikhulu"
     },
     {
@@ -3468,7 +3494,7 @@
       "scientificName": "Fregata ariel",
       "robertsVII": 471,
       "robertsVI": "(-)",
-      "afrikaans": "Kleinfregatvo\u00ebl",
+      "afrikaans": "Kleinfregatvoël",
       "zulu": "ikhwebulelincane"
     },
     {
@@ -3481,7 +3507,7 @@
       "scientificName": "Fulmarus glacialoides",
       "robertsVII": 502,
       "robertsVI": "19",
-      "afrikaans": "Silwerstormvo\u00ebl",
+      "afrikaans": "Silwerstormvoël",
       "zulu": "umantantosaqhwa"
     },
     {
@@ -3503,7 +3529,7 @@
       "sasolPageNo": 148,
       "roberts6Sort": 224,
       "sabap2": 209,
-      "fullName": "Allen\u2019s Gallinule",
+      "fullName": "Allen’s Gallinule",
       "scientificName": "Porphyrio alleni",
       "robertsVII": 222,
       "robertsVI": "224",
@@ -3559,7 +3585,7 @@
       "scientificName": "Crinifer concolor",
       "robertsVII": 159,
       "robertsVI": "373",
-      "afrikaans": "Kw\u00eavo\u00ebl",
+      "afrikaans": "Kwêvoël",
       "zulu": "umklewu"
     },
     {
@@ -3625,7 +3651,8 @@
       "robertsVII": 25,
       "robertsVI": "102",
       "afrikaans": "Kolgans",
-      "zulu": "ilongwe"
+      "zulu": "ilongwe",
+      "image": "/birds/rsa/images/89_egyptian_goose.jpg"
     },
     {
       "alphaSort": 280,
@@ -3702,7 +3729,7 @@
       "scientificName": "Sphenoeacus afer",
       "robertsVII": 628,
       "robertsVI": "661",
-      "afrikaans": "Grasvo\u00ebl",
+      "afrikaans": "Grasvoël",
       "zulu": "unontshiloza"
     },
     {
@@ -3755,7 +3782,8 @@
       "robertsVII": 617,
       "robertsVI": "572",
       "afrikaans": "Gewone Willie",
-      "zulu": "uwili, umashwili"
+      "zulu": "uwili, umashwili",
+      "image": "/birds/rsa/images/551_sombre_greenbul.jpg"
     },
     {
       "alphaSort": 290,
@@ -3768,7 +3796,8 @@
       "robertsVII": 619,
       "robertsVI": "574",
       "afrikaans": "Geelborswillie",
-      "zulu": "ibhada, unanaza"
+      "zulu": "ibhada, unanaza",
+      "image": "/birds/rsa/images/550_yellow-bellied_greenbul.jpg"
     },
     {
       "alphaSort": 291,
@@ -3841,7 +3870,7 @@
       "sasolPageNo": 208,
       "roberts6Sort": 317,
       "sabap2": 932,
-      "fullName": "Franklin\u2019s Gull",
+      "fullName": "Franklin’s Gull",
       "scientificName": "Leucophaeus pipixcan",
       "robertsVII": 320,
       "robertsVI": "317",
@@ -3867,7 +3896,7 @@
       "sasolPageNo": 208,
       "roberts6Sort": 316,
       "sabap2": 289,
-      "fullName": "Hartlaub\u2019s Gull",
+      "fullName": "Hartlaub’s Gull",
       "scientificName": "Chroicocephalus hartlaubii",
       "robertsVII": 317,
       "robertsVI": "316",
@@ -3919,7 +3948,7 @@
       "sasolPageNo": 208,
       "roberts6Sort": 318,
       "sabap2": 901,
-      "fullName": "Sabine\u2019s Gull",
+      "fullName": "Sabine’s Gull",
       "scientificName": "Xema sabini",
       "robertsVII": 321,
       "robertsVI": "318",
@@ -3963,7 +3992,8 @@
       "robertsVII": 452,
       "robertsVI": "81",
       "afrikaans": "Hamerkop",
-      "zulu": "uthekwane"
+      "zulu": "uthekwane",
+      "image": "/birds/rsa/images/72_hamerkop.jpg"
     },
     {
       "alphaSort": 306,
@@ -3997,7 +4027,7 @@
       "sasolPageNo": 108,
       "roberts6Sort": 166,
       "sabap2": 170,
-      "fullName": "Montagu\u2019s Harrier",
+      "fullName": "Montagu’s Harrier",
       "scientificName": "Circus pygargus",
       "robertsVII": 369,
       "robertsVI": "166",
@@ -4088,7 +4118,7 @@
       "sasolPageNo": 378,
       "roberts6Sort": 754,
       "sabap2": 728,
-      "fullName": "Retz\u2019s Helmet-Shrike",
+      "fullName": "Retz’s Helmet-Shrike",
       "scientificName": "Prionops retzii",
       "robertsVII": 559,
       "robertsVI": "754",
@@ -4145,7 +4175,8 @@
       "robertsVII": 439,
       "robertsVI": "63",
       "afrikaans": "Swartkopreier",
-      "zulu": "unokilonkokhandamnyama\u00a0"
+      "zulu": "unokilonkokhandamnyama ",
+      "image": "/birds/rsa/images/55_black-headed_heron.jpg"
     },
     {
       "alphaSort": 320,
@@ -4171,7 +4202,8 @@
       "robertsVII": 438,
       "robertsVI": "62",
       "afrikaans": "Bloureier",
-      "zulu": "unokilonkojwayelekile"
+      "zulu": "unokilonkojwayelekile",
+      "image": "/birds/rsa/images/54_grey_heron.jpg"
     },
     {
       "alphaSort": 322,
@@ -4300,7 +4332,7 @@
       "scientificName": "Prodotiscus regulus",
       "robertsVII": 49,
       "robertsVI": "478",
-      "afrikaans": "Skerpbekheuningvo\u00ebl",
+      "afrikaans": "Skerpbekheuningvoël",
       "zulu": "unomtsheketshe"
     },
     {
@@ -4353,7 +4385,8 @@
       "robertsVII": 80,
       "robertsVI": "451",
       "afrikaans": "Hoephoep",
-      "zulu": "umzolozolo, umambathingubo"
+      "zulu": "umzolozolo, umambathingubo",
+      "image": "/birds/rsa/images/418_common_hoopoe.jpg"
     },
     {
       "alphaSort": 336,
@@ -4365,7 +4398,7 @@
       "scientificName": "Lophoceros nasutus",
       "robertsVII": 76,
       "robertsVI": "457",
-      "afrikaans": "Grysneushoringvo\u00ebl",
+      "afrikaans": "Grysneushoringvoël",
       "zulu": "umkholwanomlotha"
     },
     {
@@ -4378,7 +4411,7 @@
       "scientificName": "Lophoceros alboterminatus",
       "robertsVII": 74,
       "robertsVI": "460",
-      "afrikaans": "Gekroonde Neushoringvo\u00ebl",
+      "afrikaans": "Gekroonde Neushoringvoël",
       "zulu": "umkhololwane"
     },
     {
@@ -4391,7 +4424,7 @@
       "scientificName": "Bucorvus leadbeateri",
       "robertsVII": 79,
       "robertsVI": "463",
-      "afrikaans": "Bromvo\u00ebl",
+      "afrikaans": "Bromvoël",
       "zulu": "insingizi, ingududu"
     },
     {
@@ -4404,7 +4437,7 @@
       "scientificName": "Tockus rufirostris",
       "robertsVII": 71,
       "robertsVI": "458",
-      "afrikaans": "Rooibekneushoringvo\u00ebl",
+      "afrikaans": "Rooibekneushoringvoël",
       "zulu": "umkholwane"
     },
     {
@@ -4417,7 +4450,7 @@
       "scientificName": "Tockus leucomelas",
       "robertsVII": 73,
       "robertsVI": "459",
-      "afrikaans": "Geelbekneushoringvo\u00ebl",
+      "afrikaans": "Geelbekneushoringvoël",
       "zulu": "umkholophuzi"
     },
     {
@@ -4456,7 +4489,7 @@
       "scientificName": "Threskiornis aethiopicus",
       "robertsVII": 458,
       "robertsVI": "91",
-      "afrikaans": "Skoorsteenve\u00ebr",
+      "afrikaans": "Skoorsteenveër",
       "zulu": "inkankanelunga"
     },
     {
@@ -4470,7 +4503,8 @@
       "robertsVII": 455,
       "robertsVI": "93",
       "afrikaans": "Glansibis",
-      "zulu": "umacibudaka"
+      "zulu": "umacibudaka",
+      "image": "/birds/rsa/images/83_glossy_ibis.jpg"
     },
     {
       "alphaSort": 345,
@@ -4483,7 +4517,8 @@
       "robertsVII": 456,
       "robertsVI": "94",
       "afrikaans": "Hadeda",
-      "zulu": "inkankane, ihahane"
+      "zulu": "inkankane, ihahane",
+      "image": "/birds/rsa/images/84_hadeda_ibis.jpg"
     },
     {
       "alphaSort": 346,
@@ -4608,7 +4643,7 @@
       "sasolPageNo": 126,
       "roberts6Sort": 185,
       "sabap2": 121,
-      "fullName": "Dickinson\u2019s Kestrel",
+      "fullName": "Dickinson’s Kestrel",
       "scientificName": "Falco dickinsoni",
       "robertsVII": 403,
       "robertsVI": "185",
@@ -4652,7 +4687,8 @@
       "robertsVII": 400,
       "robertsVI": "181",
       "afrikaans": "Kransvalk",
-      "zulu": "umathebethebana wamadwala"
+      "zulu": "umathebethebana wamadwala",
+      "image": "/birds/rsa/images/123_rock_kestrel.jpg"
     },
     {
       "alphaSort": 359,
@@ -4678,7 +4714,8 @@
       "robertsVII": 96,
       "robertsVI": "435",
       "afrikaans": "Bruinkopvisvanger",
-      "zulu": "isiphikeleli"
+      "zulu": "isiphikeleli",
+      "image": "/birds/rsa/images/402_brown-hooded_kingfisher.jpg"
     },
     {
       "alphaSort": 361,
@@ -4717,7 +4754,8 @@
       "robertsVII": 90,
       "robertsVI": "430",
       "afrikaans": "Blouvisvanger",
-      "zulu": "isixula"
+      "zulu": "isixula",
+      "image": "/birds/rsa/images/396_half-collared_kingfisher.jpg"
     },
     {
       "alphaSort": 364,
@@ -4730,7 +4768,8 @@
       "robertsVII": 91,
       "robertsVI": "431",
       "afrikaans": "Kuifkopvisvanger",
-      "zulu": "uzangozolo"
+      "zulu": "uzangozolo",
+      "image": "/birds/rsa/images/397_malachite_kingfisher.jpg"
     },
     {
       "alphaSort": 365,
@@ -4756,7 +4795,8 @@
       "robertsVII": 99,
       "robertsVI": "428",
       "afrikaans": "Bontvisvanger",
-      "zulu": "ihlabahlabane"
+      "zulu": "ihlabahlabane",
+      "image": "/birds/rsa/images/394_pied_kingfisher.jpg"
     },
     {
       "alphaSort": 367,
@@ -4833,7 +4873,7 @@
       "scientificName": "Rissa tridactyla",
       "robertsVII": 322,
       "robertsVI": "320",
-      "afrikaans": "Swartpootbrandervo\u00ebl",
+      "afrikaans": "Swartpootbrandervoël",
       "zulu": "unochwebomlenzomnyama"
     },
     {
@@ -4899,7 +4939,8 @@
       "robertsVII": 201,
       "robertsVI": "235",
       "afrikaans": "Vaalkorhaan",
-      "zulu": "isemelimpunga"
+      "zulu": "isemelimpunga",
+      "image": "/birds/rsa/images/220_karoo_korhaan.jpg"
     },
     {
       "alphaSort": 378,
@@ -4938,7 +4979,8 @@
       "robertsVII": 198,
       "robertsVI": "239",
       "afrikaans": "Swartvlerkkorhaan",
-      "zulu": "iseme laseKapa"
+      "zulu": "iseme laseKapa",
+      "image": "/birds/rsa/images/4134_southern_black_korhaan.jpg"
     },
     {
       "alphaSort": 381,
@@ -4951,7 +4993,8 @@
       "robertsVII": 294,
       "robertsVI": "260",
       "afrikaans": "Lelkiewiet",
-      "zulu": "umadevaphuzi"
+      "zulu": "umadevaphuzi",
+      "image": "/birds/rsa/images/247_african_wattled_lapwing.jpg"
     },
     {
       "alphaSort": 382,
@@ -4964,7 +5007,8 @@
       "robertsVII": 291,
       "robertsVI": "258",
       "afrikaans": "Bontkiewiet",
-      "zulu": "indudumela"
+      "zulu": "indudumela",
+      "image": "/birds/rsa/images/245_blacksmith_lapwing.jpg"
     },
     {
       "alphaSort": 383,
@@ -5076,7 +5120,7 @@
       "sasolPageNo": 288,
       "roberts6Sort": 509,
       "sabap2": 472,
-      "fullName": "Botha\u2019s Lark",
+      "fullName": "Botha’s Lark",
       "scientificName": "Spizocorys fringillaris",
       "robertsVII": 737,
       "robertsVI": "509",
@@ -5158,7 +5202,7 @@
       "scientificName": "Corypha fasciolata",
       "robertsVII": 714,
       "robertsVI": "495",
-      "afrikaans": "Ho\u00ebveldklappertjie",
+      "afrikaans": "Hoëveldklappertjie",
       "zulu": "uqaqashe wedenge"
     },
     {
@@ -5250,7 +5294,8 @@
       "robertsVII": 739,
       "robertsVI": "512",
       "afrikaans": "Dikbeklewerik",
-      "zulu": "ungqwashomlomomkhulu"
+      "zulu": "ungqwashomlomomkhulu",
+      "image": "/birds/rsa/images/463_large-billed_lark.jpg"
     },
     {
       "alphaSort": 405,
@@ -5323,7 +5368,7 @@
       "sasolPageNo": 288,
       "roberts6Sort": 499,
       "sabap2": 473,
-      "fullName": "Rudd\u2019s Lark",
+      "fullName": "Rudd’s Lark",
       "scientificName": "Heteromirafra ruddi",
       "robertsVII": 715,
       "robertsVI": "499",
@@ -5362,7 +5407,7 @@
       "sasolPageNo": 288,
       "roberts6Sort": 510,
       "sabap2": 491,
-      "fullName": "Sclater\u2019s Lark",
+      "fullName": "Sclater’s Lark",
       "scientificName": "Spizocorys sclateri",
       "robertsVII": 738,
       "robertsVI": "510",
@@ -5401,7 +5446,7 @@
       "sasolPageNo": 288,
       "roberts6Sort": 511,
       "sabap2": 492,
-      "fullName": "Stark\u2019s Lark",
+      "fullName": "Stark’s Lark",
       "scientificName": "Spizocorys starki",
       "robertsVII": 735,
       "robertsVI": "511",
@@ -5445,7 +5490,8 @@
       "robertsVII": 913,
       "robertsVI": "728",
       "afrikaans": "Geelkeelkalkoentjie",
-      "zulu": "itoyiya"
+      "zulu": "itoyiya",
+      "image": "/birds/rsa/images/704_yellow-throated_longclaw.jpg"
     },
     {
       "alphaSort": 420,
@@ -5523,7 +5569,8 @@
       "robertsVII": 890,
       "robertsVI": "858",
       "afrikaans": "Rooirugfret",
-      "zulu": "amadojeyanabomvu"
+      "zulu": "amadojeyanabomvu",
+      "image": "/birds/rsa/images/824_red-backed_mannikin.jpg"
     },
     {
       "alphaSort": 426,
@@ -5614,7 +5661,8 @@
       "robertsVII": 224,
       "robertsVI": "226",
       "afrikaans": "Grootwaterhoender",
-      "zulu": "inkukhuyamanzi"
+      "zulu": "inkukhuyamanzi",
+      "image": "/birds/rsa/images/210_common_moorhen.jpg"
     },
     {
       "alphaSort": 433,
@@ -5639,7 +5687,7 @@
       "scientificName": "Urocolius indicus",
       "robertsVII": 111,
       "robertsVI": "426",
-      "afrikaans": "Rooiwangmuisvo\u00ebl",
+      "afrikaans": "Rooiwangmuisvoël",
       "zulu": "umtshivovo, umjombo"
     },
     {
@@ -5652,8 +5700,9 @@
       "scientificName": "Colius striatus",
       "robertsVII": 110,
       "robertsVI": 424,
-      "afrikaans": "Gevlekte Muisvo\u00ebl",
-      "zulu": "indlazi"
+      "afrikaans": "Gevlekte Muisvoël",
+      "zulu": "indlazi",
+      "image": "/birds/rsa/images/390_speckled_mousebird.jpg"
     },
     {
       "alphaSort": 436,
@@ -5665,8 +5714,9 @@
       "scientificName": "Colius colius",
       "robertsVII": 109,
       "robertsVI": 425,
-      "afrikaans": "Witkruismuisvo\u00ebl",
-      "zulu": "indlazemhlanomhlophe"
+      "afrikaans": "Witkruismuisvoël",
+      "zulu": "indlazemhlanomhlophe",
+      "image": "/birds/rsa/images/391_white-backed_mousebird.jpg"
     },
     {
       "alphaSort": 437,
@@ -5874,7 +5924,8 @@
       "robertsVII": 537,
       "robertsVI": "545",
       "afrikaans": "Swartkopwielewaal",
-      "zulu": "umqoqongo, usibo"
+      "zulu": "umqoqongo, usibo",
+      "image": "/birds/rsa/images/521_black-headed_oriole.jpg"
     },
     {
       "alphaSort": 453,
@@ -5913,7 +5964,8 @@
       "robertsVII": 1,
       "robertsVI": "1",
       "afrikaans": "Volstruis",
-      "zulu": "intshe"
+      "zulu": "intshe",
+      "image": "/birds/rsa/images/1_common_ostrich.jpg"
     },
     {
       "alphaSort": 456,
@@ -5986,7 +6038,7 @@
       "sasolPageNo": 240,
       "roberts6Sort": 403,
       "sabap2": 370,
-      "fullName": "Pel\u2019s Fishing Owl",
+      "fullName": "Pel’s Fishing Owl",
       "scientificName": "Scotopelia peli",
       "robertsVII": 167,
       "robertsVI": "403",
@@ -6025,7 +6077,7 @@
       "sasolPageNo": 240,
       "roberts6Sort": 402,
       "sabap2": 369,
-      "fullName": "Verreaux\u2019s Eagle-Owl",
+      "fullName": "Verreaux’s Eagle-Owl",
       "scientificName": "Ketupa lactea",
       "robertsVII": 166,
       "robertsVI": "402",
@@ -6081,7 +6133,7 @@
       "scientificName": "Buphagus erythroryncha",
       "robertsVII": 811,
       "robertsVI": "772",
-      "afrikaans": "Rooibekrenostervo\u00ebl",
+      "afrikaans": "Rooibekrenostervoël",
       "zulu": "ihlalanyathi, ihlalankomo"
     },
     {
@@ -6094,7 +6146,7 @@
       "scientificName": "Buphagus africanus",
       "robertsVII": 810,
       "robertsVI": "771",
-      "afrikaans": "Geelbekrenostervo\u00ebl",
+      "afrikaans": "Geelbekrenostervoël",
       "zulu": "ihlalankomelimlomophuzi"
     },
     {
@@ -6108,7 +6160,8 @@
       "robertsVII": 274,
       "robertsVI": "244",
       "afrikaans": "Swarttobie",
-      "zulu": "unozila"
+      "zulu": "unozila",
+      "image": "/birds/rsa/images/231_african_black_oystercatcher.jpg"
     },
     {
       "alphaSort": 471,
@@ -6194,7 +6247,7 @@
       "sasolPageNo": 226,
       "roberts6Sort": 364,
       "sabap2": 327,
-      "fullName": "Meyer\u2019s Parrot",
+      "fullName": "Meyer’s Parrot",
       "scientificName": "Poicephalus meyeri",
       "robertsVII": 134,
       "robertsVI": "364",
@@ -6263,7 +6316,7 @@
       "scientificName": "Anthoscopus minutus",
       "robertsVII": 585,
       "robertsVI": "558",
-      "afrikaans": "Kaapse Kapokvo\u00ebl",
+      "afrikaans": "Kaapse Kapokvoël",
       "zulu": "iklosi lasehlane"
     },
     {
@@ -6276,7 +6329,7 @@
       "scientificName": "Anthoscopus caroli",
       "robertsVII": 584,
       "robertsVI": "557",
-      "afrikaans": "Gryskapokvo\u00ebl",
+      "afrikaans": "Gryskapokvoël",
       "zulu": "iklosi"
     },
     {
@@ -6290,7 +6343,8 @@
       "robertsVII": 476,
       "robertsVI": "3",
       "afrikaans": "Brilpikkewyn",
-      "zulu": "inguzambongolo"
+      "zulu": "inguzambongolo",
+      "image": "/birds/rsa/images/2_african_penguin.jpg"
     },
     {
       "alphaSort": 485,
@@ -6354,7 +6408,7 @@
       "scientificName": "Thalassoica antarctica",
       "robertsVII": 503,
       "robertsVI": "20",
-      "afrikaans": "Antarktiese Stormvo\u00ebl",
+      "afrikaans": "Antarktiese Stormvoël",
       "zulu": "umantantaweqhwa"
     },
     {
@@ -6367,7 +6421,7 @@
       "scientificName": "Pterodroma incerta",
       "robertsVII": 507,
       "robertsVI": "26",
-      "afrikaans": "Atlantiese Stormvo\u00ebl",
+      "afrikaans": "Atlantiese Stormvoël",
       "zulu": "unontwezosisusimhlophe"
     },
     {
@@ -6376,11 +6430,11 @@
       "sasolPageNo": "(-)",
       "roberts6Sort": "(-)",
       "sabap2": 2244,
-      "fullName": "Barau\u2019s Petrel",
+      "fullName": "Barau’s Petrel",
       "scientificName": "Pterodroma baraui",
       "robertsVII": "(-)",
       "robertsVI": "(-)",
-      "afrikaans": "Baraustormvo\u00ebl",
+      "afrikaans": "Baraustormvoël",
       "zulu": "unontweza waseReunion"
     },
     {
@@ -6406,7 +6460,7 @@
       "scientificName": "Halobaena caerulea",
       "robertsVII": 511,
       "robertsVI": "28",
-      "afrikaans": "Bloustormvo\u00ebl",
+      "afrikaans": "Bloustormvoël",
       "zulu": "umantantobunzelimhlophe"
     },
     {
@@ -6419,7 +6473,7 @@
       "scientificName": "Pelecanoides urinatrix",
       "robertsVII": null,
       "robertsVI": null,
-      "afrikaans": "Gewone Duikstormvo\u00ebl",
+      "afrikaans": "Gewone Duikstormvoël",
       "zulu": "umantantotshuzayo"
     },
     {
@@ -6445,7 +6499,7 @@
       "scientificName": "Pterodroma macroptera",
       "robertsVII": 505,
       "robertsVI": "23",
-      "afrikaans": "Langvlerkstormvo\u00ebl",
+      "afrikaans": "Langvlerkstormvoël",
       "zulu": "unontwezonsundu"
     },
     {
@@ -6484,7 +6538,7 @@
       "scientificName": "Aphrodroma brevirostris",
       "robertsVII": 510,
       "robertsVI": "27",
-      "afrikaans": "Kerguelense Stormvo\u00ebl",
+      "afrikaans": "Kerguelense Stormvoël",
       "zulu": "unontweza waseKerguelen"
     },
     {
@@ -6493,7 +6547,7 @@
       "sasolPageNo": 52,
       "roberts6Sort": 43,
       "sabap2": 31,
-      "fullName": "Leach\u2019s Storm Petrel",
+      "fullName": "Leach’s Storm Petrel",
       "scientificName": "Hydrobates leucorhous",
       "robertsVII": 483,
       "robertsVI": "43",
@@ -6506,7 +6560,7 @@
       "sasolPageNo": 52,
       "roberts6Sort": 43.1,
       "sabap2": 1019,
-      "fullName": "Matsudaira\u2019s Storm Petrel",
+      "fullName": "Matsudaira’s Storm Petrel",
       "scientificName": "Hydrobates matsudairae",
       "robertsVII": 484,
       "robertsVI": "918",
@@ -6549,7 +6603,7 @@
       "scientificName": "Daption capense",
       "robertsVII": 504,
       "robertsVI": "21",
-      "afrikaans": "Seeduifstormvo\u00ebl",
+      "afrikaans": "Seeduifstormvoël",
       "zulu": "umantantomachaphachapha"
     },
     {
@@ -6562,7 +6616,7 @@
       "scientificName": "Pterodroma mollis",
       "robertsVII": 509,
       "robertsVI": "24",
-      "afrikaans": "Donsveerstormvo\u00ebl",
+      "afrikaans": "Donsveerstormvoël",
       "zulu": "unontwezonokhololo"
     },
     {
@@ -6601,7 +6655,7 @@
       "scientificName": "Pseudobulweria rostrata",
       "robertsVII": null,
       "robertsVI": null,
-      "afrikaans": "Tahitistormvo\u00ebl",
+      "afrikaans": "Tahitistormvoël",
       "zulu": "umantanta waseTahiti"
     },
     {
@@ -6653,7 +6707,7 @@
       "scientificName": "Pterodroma lessonii",
       "robertsVII": 506,
       "robertsVI": "25",
-      "afrikaans": "Witkopstormvo\u00ebl",
+      "afrikaans": "Witkopstormvoël",
       "zulu": "unontwezokhandelimhlophe"
     },
     {
@@ -6662,7 +6716,7 @@
       "sasolPageNo": 52,
       "roberts6Sort": 44,
       "sabap2": 33,
-      "fullName": "Wilson\u2019s Storm Petrel",
+      "fullName": "Wilson’s Storm Petrel",
       "scientificName": "Oceanites oceanicus",
       "robertsVII": 478,
       "robertsVI": "44",
@@ -6714,7 +6768,7 @@
       "sasolPageNo": 188,
       "roberts6Sort": 293,
       "sabap2": 929,
-      "fullName": "Wilson\u2019s Phalarope",
+      "fullName": "Wilson’s Phalarope",
       "scientificName": "Phalaropus tricolor",
       "robertsVII": 264,
       "robertsVI": "293",
@@ -6870,7 +6924,7 @@
       "sasolPageNo": 364,
       "roberts6Sort": 717,
       "sabap2": 10877,
-      "fullName": "Nicholson\u2019s Pipit",
+      "fullName": "Nicholson’s Pipit",
       "scientificName": "Anthus nicholsoni ",
       "robertsVII": 924,
       "robertsVI": "717",
@@ -7065,7 +7119,7 @@
       "sasolPageNo": 164,
       "roberts6Sort": 248,
       "sabap2": 237,
-      "fullName": "Kittlitz\u2019s Plover",
+      "fullName": "Kittlitz’s Plover",
       "scientificName": "Anarhynchus pecuarius",
       "robertsVII": 282,
       "robertsVI": "248",
@@ -7135,7 +7189,8 @@
       "robertsVII": 286,
       "robertsVI": "246",
       "afrikaans": "Vaalstrandkiewiet",
-      "zulu": "umathantatha"
+      "zulu": "umathantatha",
+      "image": "/birds/rsa/images/235_white-fronted_plover.jpg"
     },
     {
       "alphaSort": 550,
@@ -7160,7 +7215,7 @@
       "scientificName": "Glareola nordmanni",
       "robertsVII": 305,
       "robertsVI": "305",
-      "afrikaans": "Swartvlerksprinkaanvo\u00ebl",
+      "afrikaans": "Swartvlerksprinkaanvoël",
       "zulu": "iwambelimaphikamnyama"
     },
     {
@@ -7173,7 +7228,7 @@
       "scientificName": "Glareola pratincola",
       "robertsVII": 304,
       "robertsVI": "304",
-      "afrikaans": "Rooivlerksprinkaanvo\u00ebl",
+      "afrikaans": "Rooivlerksprinkaanvoël",
       "zulu": "iwamba"
     },
     {
@@ -7186,7 +7241,7 @@
       "scientificName": "Glareola ocularis ",
       "robertsVII": null,
       "robertsVI": null,
-      "afrikaans": "Madagaskarsprinkaanvo\u00ebl",
+      "afrikaans": "Madagaskarsprinkaanvoël",
       "zulu": "iwamba laseMadagascar"
     },
     {
@@ -7199,7 +7254,7 @@
       "scientificName": "Glareola nuchalis",
       "robertsVII": 306,
       "robertsVI": "306",
-      "afrikaans": "Withalssprinkaanvo\u00ebl",
+      "afrikaans": "Withalssprinkaanvoël",
       "zulu": "iwamba lomfula"
     },
     {
@@ -7239,7 +7294,8 @@
       "robertsVII": 693,
       "robertsVI": "686",
       "afrikaans": "Karoolangstertjie",
-      "zulu": "ujenga waseKapa"
+      "zulu": "ujenga waseKapa",
+      "image": "/birds/rsa/images/4139_karoo_prinia.jpg"
     },
     {
       "alphaSort": 558,
@@ -7252,7 +7308,8 @@
       "robertsVII": 691,
       "robertsVI": "683",
       "afrikaans": "Bruinsylangstertjie",
-      "zulu": "ujenga"
+      "zulu": "ujenga",
+      "image": "/birds/rsa/images/649_tawny-flanked_prinia.jpg"
     },
     {
       "alphaSort": 559,
@@ -7264,7 +7321,7 @@
       "scientificName": "Pachyptila desolata",
       "robertsVII": 514,
       "robertsVI": "(-)",
-      "afrikaans": "Antarktiese Walvisvo\u00ebl",
+      "afrikaans": "Antarktiese Walvisvoël",
       "zulu": "impunga yaseqhweni "
     },
     {
@@ -7277,7 +7334,7 @@
       "scientificName": "Pachyptila vittata",
       "robertsVII": 512,
       "robertsVI": "29",
-      "afrikaans": "Bre\u00ebbekwalvisvo\u00ebl",
+      "afrikaans": "Breëbekwalvisvoël",
       "zulu": "impungemlomobanzi"
     },
     {
@@ -7290,7 +7347,7 @@
       "scientificName": "Pachyptila turtur",
       "robertsVII": 516,
       "robertsVI": "31",
-      "afrikaans": "Swartstertwalvisvo\u00ebl",
+      "afrikaans": "Swartstertwalvisvoël",
       "zulu": "impungesajuba"
     },
     {
@@ -7299,11 +7356,11 @@
       "sasolPageNo": 48,
       "roberts6Sort": 29.1,
       "sabap2": 878,
-      "fullName": "Salvin\u2019s Prion",
+      "fullName": "Salvin’s Prion",
       "scientificName": "Pachyptila salvini",
       "robertsVII": 513,
       "robertsVI": "(-)",
-      "afrikaans": "Marionwalvisvo\u00ebl",
+      "afrikaans": "Marionwalvisvoël",
       "zulu": "impungemlomobanzana"
     },
     {
@@ -7316,7 +7373,7 @@
       "scientificName": "Pachyptila belcheri",
       "robertsVII": 515,
       "robertsVI": "30",
-      "afrikaans": "Dunbekwalvisvo\u00ebl",
+      "afrikaans": "Dunbekwalvisvoël",
       "zulu": "impungemlomomncane"
     },
     {
@@ -7616,7 +7673,8 @@
       "robertsVII": 766,
       "robertsVI": "601",
       "afrikaans": "Gewone Janfrederik",
-      "zulu": "ugaga"
+      "zulu": "ugaga",
+      "image": "/birds/rsa/images/581_cape_robin-chat.jpg"
     },
     {
       "alphaSort": 587,
@@ -7642,7 +7700,8 @@
       "robertsVII": 769,
       "robertsVI": "600",
       "afrikaans": "Nataljanfrederik",
-      "zulu": "unonkositini"
+      "zulu": "unonkositini",
+      "image": "/birds/rsa/images/579_red-capped_robin-chat.jpg"
     },
     {
       "alphaSort": 589,
@@ -7720,7 +7779,8 @@
       "robertsVII": 85,
       "robertsVI": "446",
       "afrikaans": "Europese Troupant",
-      "zulu": "ifefeliluhlaza"
+      "zulu": "ifefeliluhlaza",
+      "image": "/birds/rsa/images/412_european_roller.jpg"
     },
     {
       "alphaSort": 595,
@@ -7793,7 +7853,7 @@
       "sasolPageNo": 218,
       "roberts6Sort": 345,
       "sabap2": 308,
-      "fullName": "Burchell\u2019s Sandgrouse",
+      "fullName": "Burchell’s Sandgrouse",
       "scientificName": "Pterocles burchelli",
       "robertsVII": 230,
       "robertsVI": "345",
@@ -7845,7 +7905,7 @@
       "sasolPageNo": 178,
       "roberts6Sort": 278,
       "sabap2": 252,
-      "fullName": "Baird\u2019s Sandpiper",
+      "fullName": "Baird’s Sandpiper",
       "scientificName": "Calidris bairdii",
       "robertsVII": 256,
       "robertsVI": "278",
@@ -7862,7 +7922,7 @@
       "scientificName": "Calidris falcinellus",
       "robertsVII": 262,
       "robertsVI": "283",
-      "afrikaans": "Bre\u00ebbekstrandloper",
+      "afrikaans": "Breëbekstrandloper",
       "zulu": "unothwayizonomlomomkhulu"
     },
     {
@@ -8031,7 +8091,7 @@
       "scientificName": "Sagittarius serpentarius",
       "robertsVII": 397,
       "robertsVI": "118",
-      "afrikaans": "Sekretarisvo\u00ebl",
+      "afrikaans": "Sekretarisvoël",
       "zulu": "intinginono, intungunono"
     },
     {
@@ -8053,11 +8113,11 @@
       "sasolPageNo": 42,
       "roberts6Sort": 34,
       "sabap2": 26,
-      "fullName": "Cory\u2019s Shearwater",
+      "fullName": "Cory’s Shearwater",
       "scientificName": "Calonectris borealis",
       "robertsVII": 522,
       "robertsVI": "34",
-      "afrikaans": "Geelbekpylstormvo\u00ebl",
+      "afrikaans": "Geelbekpylstormvoël",
       "zulu": "isikamanzelimlomophuzi"
     },
     {
@@ -8070,7 +8130,7 @@
       "scientificName": "Ardenna carneipes",
       "robertsVII": 525,
       "robertsVI": "36",
-      "afrikaans": "Bruinpylstormvo\u00ebl",
+      "afrikaans": "Bruinpylstormvoël",
       "zulu": "isikamanzelinyawobomvana"
     },
     {
@@ -8083,7 +8143,7 @@
       "scientificName": "Ardenna gravis",
       "robertsVII": 524,
       "robertsVI": "35",
-      "afrikaans": "Grootpylstormvo\u00ebl",
+      "afrikaans": "Grootpylstormvoël",
       "zulu": "isikamanzelikhulu"
     },
     {
@@ -8096,7 +8156,7 @@
       "scientificName": "Puffinus assimilis",
       "robertsVII": 531,
       "robertsVI": "39",
-      "afrikaans": "Kleinpylstormvo\u00ebl",
+      "afrikaans": "Kleinpylstormvoël",
       "zulu": "isikamanzelincane"
     },
     {
@@ -8109,7 +8169,7 @@
       "scientificName": "Puffinus puffinus",
       "robertsVII": 528,
       "robertsVI": "38",
-      "afrikaans": "Swartbekpylstormvo\u00ebl",
+      "afrikaans": "Swartbekpylstormvoël",
       "zulu": "isikamanzi laseNyakatho"
     },
     {
@@ -8135,7 +8195,7 @@
       "scientificName": "Calonectris leucomelas",
       "robertsVII": 523,
       "robertsVI": "(-)",
-      "afrikaans": "Gestreepte Pylstormvo\u00ebl",
+      "afrikaans": "Gestreepte Pylstormvoël",
       "zulu": "isikamanzelimidwayidwa"
     },
     {
@@ -8148,7 +8208,7 @@
       "scientificName": "Puffinus elegans",
       "robertsVII": null,
       "robertsVI": null,
-      "afrikaans": "Sub-antarktiese Pylstormvo\u00ebl",
+      "afrikaans": "Sub-antarktiese Pylstormvoël",
       "zulu": "isikamanzelibusobumnyama"
     },
     {
@@ -8161,7 +8221,7 @@
       "scientificName": "Puffinus bailloni",
       "robertsVII": null,
       "robertsVI": null,
-      "afrikaans": "Tropiese Kleinpylstormvo\u00ebl",
+      "afrikaans": "Tropiese Kleinpylstormvoël",
       "zulu": "isikamanzi laseMpumalanga"
     },
     {
@@ -8174,7 +8234,7 @@
       "scientificName": "Ardenna pacifica",
       "robertsVII": 527,
       "robertsVI": "41",
-      "afrikaans": "Keilstertpylstormvo\u00ebl",
+      "afrikaans": "Keilstertpylstormvoël",
       "zulu": "isikamanzelisisileside"
     },
     {
@@ -8201,7 +8261,8 @@
       "robertsVII": 26,
       "robertsVI": "103",
       "afrikaans": "Kopereend",
-      "zulu": "idadelibomvu"
+      "zulu": "idadelibomvu",
+      "image": "/birds/rsa/images/90_south_african_shelduck.jpg"
     },
     {
       "alphaSort": 632,
@@ -8227,7 +8288,8 @@
       "robertsVII": 34,
       "robertsVI": "112",
       "afrikaans": "Kaapse Slopeend",
-      "zulu": "unofosholo"
+      "zulu": "unofosholo",
+      "image": "/birds/rsa/images/94_cape_shoveler.jpg"
     },
     {
       "alphaSort": 634,
@@ -8292,7 +8354,7 @@
       "robertsVII": null,
       "robertsVI": null,
       "afrikaans": "Rooistertlaksman",
-      "zulu": "umathithibalosisilasibomvu\u00a0"
+      "zulu": "umathithibalosisilasibomvu "
     },
     {
       "alphaSort": 639,
@@ -8356,7 +8418,7 @@
       "scientificName": "Rynchops flavirostris",
       "robertsVII": 312,
       "robertsVI": "343",
-      "afrikaans": "Waterploe\u00ebr",
+      "afrikaans": "Waterploeër",
       "zulu": "unokhukhula"
     },
     {
@@ -8369,7 +8431,7 @@
       "scientificName": "Rynchops niger",
       "robertsVII": null,
       "robertsVI": null,
-      "afrikaans": "Amerikaanse Waterploe\u00ebr",
+      "afrikaans": "Amerikaanse Waterploeër",
       "zulu": "unokhukhula waseMelika"
     },
     {
@@ -8474,7 +8536,8 @@
       "robertsVII": 903,
       "robertsVI": "804",
       "afrikaans": "Gryskopmossie",
-      "zulu": "ujolwanokhandampunga"
+      "zulu": "ujolwanokhandampunga",
+      "image": "/birds/rsa/images/4142_southern_grey-headed_sparrow.jpg"
     },
     {
       "alphaSort": 653,
@@ -8538,7 +8601,7 @@
       "scientificName": "Plocepasser mahali",
       "robertsVII": 837,
       "robertsVI": "799",
-      "afrikaans": "Koringvo\u00ebl",
+      "afrikaans": "Koringvoël",
       "zulu": "usoqhawe"
     },
     {
@@ -8547,7 +8610,7 @@
       "sasolPageNo": 250,
       "roberts6Sort": 423,
       "sabap2": 389,
-      "fullName": "B\u00f6hm\u2019s Spinetail",
+      "fullName": "Böhm’s Spinetail",
       "scientificName": "Neafrapus boehmi",
       "robertsVII": 143,
       "robertsVI": "423",
@@ -8591,7 +8654,8 @@
       "robertsVII": 11,
       "robertsVI": "195",
       "afrikaans": "Kaapse Fisant",
-      "zulu": "isikhwehle saseKapa"
+      "zulu": "isikhwehle saseKapa",
+      "image": "/birds/rsa/images/181_cape_spurfowl.jpg"
     },
     {
       "alphaSort": 662,
@@ -8638,7 +8702,7 @@
       "sasolPageNo": 136,
       "roberts6Sort": 199,
       "sabap2": 185,
-      "fullName": "Swainson\u2019s Spurfowl",
+      "fullName": "Swainson’s Spurfowl",
       "scientificName": "Pternistis swainsonii",
       "robertsVII": 14,
       "robertsVI": "199",
@@ -8656,7 +8720,8 @@
       "robertsVII": 798,
       "robertsVI": "768",
       "afrikaans": "Swartpensglansspreeu",
-      "zulu": "ikhwezi lasogwini"
+      "zulu": "ikhwezi lasogwini",
+      "image": "/birds/rsa/images/740_black-bellied_starling.jpg"
     },
     {
       "alphaSort": 667,
@@ -8664,7 +8729,7 @@
       "sasolPageNo": 382,
       "roberts6Sort": 762,
       "sabap2": 743,
-      "fullName": "Burchell\u2019s Starling",
+      "fullName": "Burchell’s Starling",
       "scientificName": "Lamprotornis australis",
       "robertsVII": 803,
       "robertsVI": "762",
@@ -8729,7 +8794,7 @@
       "sasolPageNo": 382,
       "roberts6Sort": 763,
       "sabap2": 742,
-      "fullName": "Meves\u2019s Starling",
+      "fullName": "Meves’s Starling",
       "scientificName": "Lamprotornis mevesii",
       "robertsVII": 804,
       "robertsVI": "763",
@@ -8825,7 +8890,8 @@
       "robertsVII": 275,
       "robertsVI": "295",
       "afrikaans": "Rooipootelsie",
-      "zulu": "uduku"
+      "zulu": "uduku",
+      "image": "/birds/rsa/images/270_black-winged_stilt.jpg"
     },
     {
       "alphaSort": 680,
@@ -8872,7 +8938,7 @@
       "sasolPageNo": 178,
       "roberts6Sort": 280,
       "sabap2": 985,
-      "fullName": "Temminck\u2019s Stint",
+      "fullName": "Temminck’s Stint",
       "scientificName": "Calidris temminckii",
       "robertsVII": 254,
       "robertsVI": "280",
@@ -8898,7 +8964,7 @@
       "sasolPageNo": 68,
       "roberts6Sort": 85,
       "sabap2": 78,
-      "fullName": "Abdim\u2019s Stork",
+      "fullName": "Abdim’s Stork",
       "scientificName": "Ciconia abdimii",
       "robertsVII": 465,
       "robertsVI": "85",
@@ -8993,7 +9059,7 @@
       "scientificName": "Promerops cafer",
       "robertsVII": 834,
       "robertsVI": "773",
-      "afrikaans": "Kaapse Suikervo\u00ebl",
+      "afrikaans": "Kaapse Suikervoël",
       "zulu": "unosiqalaba waseKapa"
     },
     {
@@ -9002,11 +9068,11 @@
       "sasolPageNo": 386,
       "roberts6Sort": 774,
       "sabap2": 750,
-      "fullName": "Gurney\u2019s Sugarbird",
+      "fullName": "Gurney’s Sugarbird",
       "scientificName": "Promerops gurneyi",
       "robertsVII": 833,
       "robertsVI": "774",
-      "afrikaans": "Rooiborssuikervo\u00ebl",
+      "afrikaans": "Rooiborssuikervoël",
       "zulu": "unosiqalaba"
     },
     {
@@ -9106,7 +9172,7 @@
       "sasolPageNo": 392,
       "roberts6Sort": 782,
       "sabap2": 761,
-      "fullName": "Neergaard\u2019s Sunbird",
+      "fullName": "Neergaard’s Sunbird",
       "scientificName": "Cinnyris neergaardi",
       "robertsVII": 825,
       "robertsVI": "782",
@@ -9124,7 +9190,8 @@
       "robertsVII": 815,
       "robertsVI": "790",
       "afrikaans": "Olyfsuikerbekkie",
-      "zulu": "incwincweluhlaza"
+      "zulu": "incwincweluhlaza",
+      "image": "/birds/rsa/images/766_olive_sunbird.jpg"
     },
     {
       "alphaSort": 703,
@@ -9189,7 +9256,8 @@
       "robertsVII": 823,
       "robertsVI": "783",
       "afrikaans": "Klein-rooibandsuikerbekkie",
-      "zulu": "incuncwana"
+      "zulu": "incuncwana",
+      "image": "/birds/rsa/images/760_southern_double-collared_sunbird.jpg"
     },
     {
       "alphaSort": 708,
@@ -9318,7 +9386,7 @@
       "scientificName": "Hirundo dimidiata",
       "robertsVII": 602,
       "robertsVI": "523",
-      "afrikaans": "P\u00earelborsswael",
+      "afrikaans": "Pêrelborsswael",
       "zulu": "inkonjanencwaba"
     },
     {
@@ -9384,7 +9452,8 @@
       "robertsVII": 221,
       "robertsVI": "223",
       "afrikaans": "Grootkoningriethaan",
-      "zulu": "inkukhuyomhlanga"
+      "zulu": "inkukhuyomhlanga",
+      "image": "/birds/rsa/images/208_african_purple_swamphen.jpg"
     },
     {
       "alphaSort": 723,
@@ -9444,7 +9513,7 @@
       "sasolPageNo": 248,
       "roberts6Sort": 413,
       "sabap2": 381,
-      "fullName": "Bradfield\u2019s Swift",
+      "fullName": "Bradfield’s Swift",
       "scientificName": "Apus bradfieldi",
       "robertsVII": 150,
       "robertsVI": "413",
@@ -9782,7 +9851,7 @@
       "sasolPageNo": null,
       "roberts6Sort": null,
       "sabap2": 2070,
-      "fullName": "Saunders\u2019s Tern",
+      "fullName": "Saunders’s Tern",
       "scientificName": "Sternula saundersi",
       "robertsVII": null,
       "robertsVI": null,
@@ -9865,7 +9934,8 @@
       "robertsVII": 272,
       "robertsVI": "297",
       "afrikaans": "Gewone Dikkop",
-      "zulu": "umbangaqhwa"
+      "zulu": "umbangaqhwa",
+      "image": "/birds/rsa/images/275_spotted_thick-knee.jpg"
     },
     {
       "alphaSort": 760,
@@ -9903,7 +9973,7 @@
       "scientificName": "Cichladusa arquata",
       "robertsVII": 771,
       "robertsVI": "603",
-      "afrikaans": "Palmm\u00f4relyster",
+      "afrikaans": "Palmmôrelyster",
       "zulu": "umunswi wasemalaleni"
     },
     {
@@ -9917,7 +9987,8 @@
       "robertsVII": 747,
       "robertsVI": "580",
       "afrikaans": "Gevlekte Lyster",
-      "zulu": "insansa"
+      "zulu": "insansa",
+      "image": "/birds/rsa/images/557_groundscraper_thrush.jpg"
     },
     {
       "alphaSort": 764,
@@ -9956,7 +10027,8 @@
       "robertsVII": 749,
       "robertsVI": "577",
       "afrikaans": "Olyflyster",
-      "zulu": "umunswili"
+      "zulu": "umunswili",
+      "image": "/birds/rsa/images/1105_olive_thrush.jpg"
     },
     {
       "alphaSort": 767,
@@ -10047,7 +10119,8 @@
       "robertsVII": 64,
       "robertsVI": "471",
       "afrikaans": "Swartblestinker",
-      "zulu": "isipopopo"
+      "zulu": "isipopopo",
+      "image": "/birds/rsa/images/438_yellow-rumped_tinkerbird.jpg"
     },
     {
       "alphaSort": 774,
@@ -10107,7 +10180,7 @@
       "sasolPageNo": 342,
       "roberts6Sort": 622,
       "sabap2": 659,
-      "fullName": "Layard\u2019s Tit-Babbler (Warbler)",
+      "fullName": "Layard’s Tit-Babbler (Warbler)",
       "scientificName": "Curruca layardi",
       "robertsVII": 664,
       "robertsVI": "622",
@@ -10185,7 +10258,7 @@
       "sasolPageNo": 230,
       "roberts6Sort": 370.1,
       "sabap2": 1710,
-      "fullName": "Livingstone\u2019s Turaco",
+      "fullName": "Livingstone’s Turaco",
       "scientificName": "Tauraco livingstonii",
       "robertsVII": 155,
       "robertsVI": "(-)",
@@ -10203,7 +10276,8 @@
       "robertsVII": 158,
       "robertsVI": "371",
       "afrikaans": "Bloukuifloerie",
-      "zulu": "igwalagwala lehlanze"
+      "zulu": "igwalagwala lehlanze",
+      "image": "/birds/rsa/images/337_purple-crestred_turaco.jpg"
     },
     {
       "alphaSort": 786,
@@ -10267,7 +10341,7 @@
       "scientificName": "Gypaetus barbatus",
       "robertsVII": 352,
       "robertsVI": "119",
-      "afrikaans": "Baardaasvo\u00ebl",
+      "afrikaans": "Baardaasvoël",
       "zulu": "ukhozilwentshebe"
     },
     {
@@ -10280,7 +10354,7 @@
       "scientificName": "Gyps coprotheres",
       "robertsVII": 357,
       "robertsVI": "122",
-      "afrikaans": "Kransaasvo\u00ebl",
+      "afrikaans": "Kransaasvoël",
       "zulu": "idlanga lentaba"
     },
     {
@@ -10293,7 +10367,7 @@
       "scientificName": "Neophron percnopterus",
       "robertsVII": 353,
       "robertsVI": "120",
-      "afrikaans": "Egiptiese Aasvo\u00ebl",
+      "afrikaans": "Egiptiese Aasvoël",
       "zulu": "uphalane"
     },
     {
@@ -10306,7 +10380,7 @@
       "scientificName": "Necrosyrtes monachus",
       "robertsVII": 354,
       "robertsVI": "121",
-      "afrikaans": "Monnikaasvo\u00ebl",
+      "afrikaans": "Monnikaasvoël",
       "zulu": "inqelincane"
     },
     {
@@ -10319,7 +10393,7 @@
       "scientificName": "Torgos tracheliotos",
       "robertsVII": 358,
       "robertsVI": "124",
-      "afrikaans": "Swartaasvo\u00ebl",
+      "afrikaans": "Swartaasvoël",
       "zulu": "indlangamandla"
     },
     {
@@ -10332,7 +10406,7 @@
       "scientificName": "Gypohierax angolensis",
       "robertsVII": 351,
       "robertsVI": "147",
-      "afrikaans": "Witaasvo\u00ebl",
+      "afrikaans": "Witaasvoël",
       "zulu": "inqemvuma"
     },
     {
@@ -10341,11 +10415,11 @@
       "sasolPageNo": 86,
       "roberts6Sort": 123.1,
       "sabap2": 1029,
-      "fullName": "R\u00fcppell\u2019s Vulture",
+      "fullName": "Rüppell’s Vulture",
       "scientificName": "Gyps rueppelli",
       "robertsVII": 356,
       "robertsVI": "(-)",
-      "afrikaans": "R\u00fcppellaasvo\u00ebl",
+      "afrikaans": "Rüppellaasvoël",
       "zulu": "inqelimagqabhagqabha"
     },
     {
@@ -10358,7 +10432,7 @@
       "scientificName": "Gyps africanus",
       "robertsVII": 355,
       "robertsVI": "123",
-      "afrikaans": "Witrugaasvo\u00ebl",
+      "afrikaans": "Witrugaasvoël",
       "zulu": "inqe lehlanze"
     },
     {
@@ -10371,7 +10445,7 @@
       "scientificName": "Trigonoceps occipitalis",
       "robertsVII": 359,
       "robertsVI": "125",
-      "afrikaans": "Witkopaasvo\u00ebl",
+      "afrikaans": "Witkopaasvoël",
       "zulu": "ukhandelimhlophe"
     },
     {
@@ -10398,7 +10472,8 @@
       "robertsVII": 907,
       "robertsVI": "713",
       "afrikaans": "Gewone Kwikkie",
-      "zulu": "umncishu"
+      "zulu": "umncishu",
+      "image": "/birds/rsa/images/686_cape_wagtail.jpg"
     },
     {
       "alphaSort": 801,
@@ -10437,7 +10512,8 @@
       "robertsVII": 911,
       "robertsVI": "712",
       "afrikaans": "Bergkwikkie",
-      "zulu": "umvemventaba"
+      "zulu": "umvemventaba",
+      "image": "/birds/rsa/images/688_mountain_wagtail.jpg"
     },
     {
       "alphaSort": 804,
@@ -10471,7 +10547,7 @@
       "sasolPageNo": 334,
       "roberts6Sort": 639,
       "sabap2": 610,
-      "fullName": "Barratt\u2019s Warbler",
+      "fullName": "Barratt’s Warbler",
       "scientificName": "Bradypterus barratti",
       "robertsVII": 642,
       "robertsVI": "639",
@@ -10514,7 +10590,7 @@
       "scientificName": "Catriscus brevirostris",
       "robertsVII": 638,
       "robertsVI": "642",
-      "afrikaans": "Bre\u00ebstertsanger",
+      "afrikaans": "Breëstertsanger",
       "zulu": "usotshanini"
     },
     {
@@ -10697,7 +10773,8 @@
       "robertsVII": 698,
       "robertsVI": "688",
       "afrikaans": "Rooioorlangstertjie",
-      "zulu": "ujenga wehlane"
+      "zulu": "ujenga wehlane",
+      "image": "/birds/rsa/images/619_rufous-eared_warbler.jpg"
     },
     {
       "alphaSort": 824,
@@ -10718,7 +10795,7 @@
       "sasolPageNo": 340,
       "roberts6Sort": 659,
       "sabap2": 615,
-      "fullName": "Stierling\u2019s Wren-Warbler",
+      "fullName": "Stierling’s Wren-Warbler",
       "scientificName": "Calamonastes stierlingi",
       "robertsVII": 707,
       "robertsVI": "659",
@@ -10731,7 +10808,7 @@
       "sasolPageNo": null,
       "roberts6Sort": null,
       "sabap2": 3276,
-      "fullName": "Upcher\u2019s Warbler",
+      "fullName": "Upcher’s Warbler",
       "scientificName": "Hippolais languida",
       "robertsVII": null,
       "robertsVI": null,
@@ -10744,7 +10821,7 @@
       "sasolPageNo": 334,
       "roberts6Sort": 641,
       "sabap2": 612,
-      "fullName": "Victorin\u2019s Warbler",
+      "fullName": "Victorin’s Warbler",
       "scientificName": "Cryptillas victorini",
       "robertsVII": 630,
       "robertsVI": "641",
@@ -10879,7 +10956,8 @@
       "robertsVII": 870,
       "robertsVI": "850",
       "afrikaans": "Suidelike Swie",
-      "zulu": "ubusukuswane"
+      "zulu": "ubusukuswane",
+      "image": "/birds/rsa/images/825_swee_waxbill.jpg"
     },
     {
       "alphaSort": 838,
@@ -10900,7 +10978,7 @@
       "sasolPageNo": 400,
       "roberts6Sort": 816,
       "sabap2": 801,
-      "fullName": "African (Holub\u2019s) Golden Weaver",
+      "fullName": "African (Holub’s) Golden Weaver",
       "scientificName": "Ploceus xanthops",
       "robertsVII": 843,
       "robertsVI": "816",
@@ -10995,7 +11073,7 @@
       "scientificName": "Philetairus socius",
       "robertsVII": 838,
       "robertsVI": "800",
-      "afrikaans": "Versamelvo\u00ebl",
+      "afrikaans": "Versamelvoël",
       "zulu": "unosidlekekazi"
     },
     {
@@ -11022,7 +11100,8 @@
       "robertsVII": 845,
       "robertsVI": "814",
       "afrikaans": "Swartkeelgeelvink",
-      "zulu": "umzwingili"
+      "zulu": "umzwingili",
+      "image": "/birds/rsa/images/803_southern_masked_weaver.jpg"
     },
     {
       "alphaSort": 849,
@@ -11035,7 +11114,8 @@
       "robertsVII": 840,
       "robertsVI": "810",
       "afrikaans": "Brilwewer",
-      "zulu": "uzibukwana"
+      "zulu": "uzibukwana",
+      "image": "/birds/rsa/images/791_spectacled_weaver.jpg"
     },
     {
       "alphaSort": 850,
@@ -11074,7 +11154,8 @@
       "robertsVII": 842,
       "robertsVI": "817",
       "afrikaans": "Geelwewer",
-      "zulu": "igelesha logu"
+      "zulu": "igelesha logu",
+      "image": "/birds/rsa/images/800_yellow_eastern_goldern_weaver.jpg"
     },
     {
       "alphaSort": 853,
@@ -11086,7 +11167,7 @@
       "scientificName": "Oenanthe pileata",
       "robertsVII": 786,
       "robertsVI": "587",
-      "afrikaans": "Ho\u00ebveldskaapwagter",
+      "afrikaans": "Hoëveldskaapwagter",
       "zulu": "uqolomhlophe"
     },
     {
@@ -11216,7 +11297,7 @@
       "scientificName": "Vidua obtusa",
       "robertsVII": 892,
       "robertsVI": "863",
-      "afrikaans": "Bre\u00ebstertparadysvink",
+      "afrikaans": "Breëstertparadysvink",
       "zulu": "ibhakelimsilobanzi"
     },
     {
@@ -11342,7 +11423,7 @@
       "sasolPageNo": 278,
       "roberts6Sort": 481,
       "sabap2": 446,
-      "fullName": "Bennett\u2019s Woodpecker",
+      "fullName": "Bennett’s Woodpecker",
       "scientificName": "Campethera bennettii",
       "robertsVII": 51,
       "robertsVI": "481",
@@ -11412,7 +11493,8 @@
       "robertsVII": 59,
       "robertsVI": "488",
       "afrikaans": "Gryskopspeg",
-      "zulu": "isigqobhamithesiluhlaza"
+      "zulu": "isigqobhamithesiluhlaza",
+      "image": "/birds/rsa/images/452_olive_woodpecker.jpg"
     },
     {
       "alphaSort": 879,
@@ -11476,7 +11558,7 @@
       "scientificName": "Pelecanoides georgicus",
       "robertsVII": null,
       "robertsVI": null,
-      "afrikaans": "Suid-Georgi\u00eb Seeduiker",
+      "afrikaans": "Suid-Georgië Seeduiker",
       "zulu": "umantantotshuzayo waseNingizimu"
     },
     {
@@ -11485,7 +11567,7 @@
       "sasolPageNo": null,
       "roberts6Sort": null,
       "sabap2": 1292,
-      "fullName": "Eaton\u2019s Pintail",
+      "fullName": "Eaton’s Pintail",
       "scientificName": "Anas eatoni",
       "robertsVII": null,
       "robertsVI": null,

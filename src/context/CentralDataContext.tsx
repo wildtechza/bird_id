@@ -17,16 +17,22 @@ export function CentralDataProvider({ children }: { children: React.ReactNode })
     const [birds, setBirds] = useState<Bird[] | null>(null);
 
     const fetchData = async () => {
-        const questionsRes = await fetch("/birds/rsa/data/questions.json");
         const birdsRes = await fetch("/birds/rsa/data/birds.json");
 
-        const questionsData: { data: Question[] } = await questionsRes.json();
         const birdsData: { data: Bird[] } = await birdsRes.json();
 
-        setQuestions(questionsData.data || []);
+        // Generate questions from birds that have images
+        const questionsFromBirds: Question[] = birdsData.data
+            .filter((bird: any) => bird.image && bird.image !== null)
+            .map((bird: any) => ({
+                image: bird.image,
+                answer: bird.sabap2.toString()
+            }));
+
+        setQuestions(questionsFromBirds || []);
         setBirds(birdsData.data || []);
 
-        console.log(`Fetched questions and birds data ${questionsData.data.length} ${birdsData.data.length}`);
+        console.log(`Fetched questions and birds data ${questionsFromBirds.length} ${birdsData.data.length}`);
     };
 
     useEffect(() => {
