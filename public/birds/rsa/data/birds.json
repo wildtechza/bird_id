@@ -326,7 +326,8 @@
       "robertsVI": "473",
       "afrikaans": "Kuifkophoutkapper",
       "zulu": "usiqhovana",
-      "image": "/birds/rsa/images/439_crested_barbet.jpg"
+      "image": "/birds/rsa/images/439_crested_barbet.jpg",
+      "sound": "/birds/rsa/sounds/439_crested_barbet.m4a"
     },
     {
       "alphaSort": 26,
@@ -801,7 +802,8 @@
       "robertsVI": "568",
       "afrikaans": "Swartoogtiptol",
       "zulu": "iphothwe",
-      "image": "/birds/rsa/images/545_common_dark-capped_bulbul.jpg"
+      "image": "/birds/rsa/images/545_common_dark-capped_bulbul.jpg",
+      "sound": "/birds/rsa/sounds/545_common_dark-capped_bulbul.m4a"
     },
     {
       "alphaSort": 62,
@@ -1128,7 +1130,8 @@
       "robertsVI": "657",
       "afrikaans": "Groenrugkwêkwêvoël",
       "zulu": "ibhoyi, imbuzane",
-      "image": "/birds/rsa/images/627_green-backed_camaroptera.jpg"
+      "image": "/birds/rsa/images/627_green-backed_camaroptera.jpg",
+      "sound": "/birds/rsa/sounds/627_green-backed_camaroptera.m4a"
     },
     {
       "alphaSort": 87,
@@ -1704,7 +1707,8 @@
       "robertsVI": "391",
       "afrikaans": "Gewone Vleiloerie",
       "zulu": "ufukwe, umgugwane",
-      "image": "/birds/rsa/images/4131_burchells_coucal.jpg"
+      "image": "/birds/rsa/images/4131_burchells_coucal.jpg",
+      "sound": "/birds/rsa/sounds/4131_burchells_coucal.m4a"
     },
     {
       "alphaSort": 131,
@@ -2344,7 +2348,8 @@
       "robertsVI": "352",
       "afrikaans": "Grootringduif",
       "zulu": "ihobhelimehlabomvu",
-      "image": "/birds/rsa/images/314_red-eyed_dove.jpg"
+      "image": "/birds/rsa/images/314_red-eyed_dove.jpg",
+      "sound": "/birds/rsa/sounds/314_red-eyed_dove.m4a"
     },
     {
       "alphaSort": 180,
@@ -2605,7 +2610,8 @@
       "robertsVII": 396,
       "robertsVI": "141",
       "afrikaans": "Kroonarend",
-      "zulu": "ukhoziqholwane, isihuhwa"
+      "zulu": "ukhoziqholwane, isihuhwa",
+      "sound": "/birds/rsa/sounds/143_crowned_eagle.m4a"
     },
     {
       "alphaSort": 200,
@@ -3783,7 +3789,8 @@
       "robertsVI": "572",
       "afrikaans": "Gewone Willie",
       "zulu": "uwili, umashwili",
-      "image": "/birds/rsa/images/551_sombre_greenbul.jpg"
+      "image": "/birds/rsa/images/551_sombre_greenbul.jpg",
+      "sound": "/birds/rsa/sounds/551_sombre_greenbul.m4a"
     },
     {
       "alphaSort": 290,
@@ -9191,7 +9198,8 @@
       "robertsVI": "790",
       "afrikaans": "Olyfsuikerbekkie",
       "zulu": "incwincweluhlaza",
-      "image": "/birds/rsa/images/766_olive_sunbird.jpg"
+      "image": "/birds/rsa/images/766_olive_sunbird.jpg",
+      "sound": "/birds/rsa/sounds/766_olive_sunbird.m4a"
     },
     {
       "alphaSort": 703,
@@ -10277,7 +10285,8 @@
       "robertsVI": "371",
       "afrikaans": "Bloukuifloerie",
       "zulu": "igwalagwala lehlanze",
-      "image": "/birds/rsa/images/337_purple-crestred_turaco.jpg"
+      "image": "/birds/rsa/images/337_purple-crestred_turaco.jpg",
+      "sound": "/birds/rsa/sounds/337_purple-crested_turaco.m4a"
     },
     {
       "alphaSort": 786,
