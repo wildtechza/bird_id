@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Bird Id - Quiz</string>
+    <string name="title_activity_main">Bird Id - Quiz</string>
+    <string name="package_name">za.co.wildtech.birdidquiz</string>
+    <string name="custom_url_scheme">za.co.wildtech.birdidquiz</string>
+</resources>

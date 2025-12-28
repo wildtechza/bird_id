@@ -1,0 +1,26 @@
+{
+  "appId": "za.co.wildtech.birdidquiz",
+  "appName": "Bird Id - Quiz",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1000,
+      "launchAutoHide": true,
+      "launchFadeOutDuration": 100,
+      "backgroundColor": "#e07a1fff",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "FIT_CENTER",
+      "showSpinner": true,
+      "androidSpinnerStyle": "large",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#999999",
+      "splashFullScreen": true,
+      "splashImmersive": true,
+      "layoutName": "launch_screen",
+      "useDialog": true
+    }
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
