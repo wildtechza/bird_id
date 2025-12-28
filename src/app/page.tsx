@@ -28,7 +28,7 @@ export default function Home() {
     if (questionCountOptions.length > 0 && !questionCountOptions.includes(count)) {
       setCount(questionCountOptions[0]);
     }
-  }, [quizType, availableCount]);
+  }, [quizType, availableCount, count, questionCountOptions]);
 
   return (
     <div className="flex flex-col items-center p-6 space-y-6 max-w-md mx-auto">

@@ -37,8 +37,6 @@ export interface QuestionDisplayProps {
 }
 
 export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }: QuestionDisplayProps) {
-    const [input, setInput] = useState("");
-    const [suggestions, setSuggestions] = useState<Bird[]>([]);
     const [result, setResult] = useState<"correct" | "incorrect" | null>(null);
     const [answerChecked, setAnswerChecked] = useState(false);
     const [feedbackMsg, setFeedbackMsg] = useState("");
@@ -46,16 +44,12 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
 
     useEffect(() => {
         setImageLoaded(false);
-        setInput("");
-        setSuggestions([]);
         setResult(null);
         setFeedbackMsg("");
         setAnswerChecked(false);
     }, [question]);
 
     function handleSelect(bird: Bird) {
-        setInput(bird.fullName);
-        setSuggestions([]);
         const isCorrect = String(bird.sabap2) === String(question.answer);
         if (isCorrect) {
             setResult("correct");

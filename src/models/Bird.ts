@@ -11,6 +11,9 @@ export class Bird {
   afrikaans!: string;
   zulu!: string;
 
+  image?: string | null = null;
+  sound?: string | null = null;
+
   constructor(data: Partial<Bird>) {
     Object.assign(this, data);
   }
