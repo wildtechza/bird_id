@@ -34,8 +34,8 @@ export default function Home() {
   }, [quizType, birdImages, birdSounds]);
 
   return (
-    <div className="flex flex-col items-center p-6 space-y-6 max-w-md mx-auto">
-      <div className="flex flex-col items-center text-xl font-semibold mb-2">
+    <div className="flex flex-col items-center p-4 space-y-4 max-w-md mx-auto">
+      <div className="flex flex-col items-center text-xl font-semibold mb-6">
         <Image
           className="mb-4"
           src="/binoculars.svg"
@@ -44,10 +44,8 @@ export default function Home() {
           height={180}
           priority
         />
-        <span>{birdImages?.length} images and {birdSounds?.length} sounds to identify!</span>
+        <span>{birdImages?.length} photos and {birdSounds?.length} calls to identify!</span>
       </div>
-
-      <h1 className="text-2xl font-bold">Choose Your Quiz</h1>
 
       {/* Quiz Type Selection */}
       <div className="w-full">
