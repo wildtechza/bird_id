@@ -60,7 +60,7 @@ export function MultipleChoice({ birds, currentQuestion, onMultipleChoiceChange 
                         value={bird.sabap2}
                         checked={selectedBird?.sabap2 == bird.sabap2}
                         onChange={() => onChange(bird)}
-                        className="w-5 h-5 text-blue-600 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 cursor-pointer"
+                        className="hidden"
                     />
                     <span className="ml-3 text-gray-800 font-medium">{bird.fullName}</span>
                 </label>

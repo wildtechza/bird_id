@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Question } from "../models/Question";
 import { Bird } from "../models/Bird";
 import { MultipleChoice } from "./MultipleChoice";
@@ -41,12 +41,18 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
     const [answerChecked, setAnswerChecked] = useState(false);
     const [feedbackMsg, setFeedbackMsg] = useState("");
     const [imageLoaded, setImageLoaded] = useState(false);
+    const audioRef = useRef<HTMLAudioElement>(null);
 
     useEffect(() => {
         setImageLoaded(false);
         setResult(null);
         setFeedbackMsg("");
         setAnswerChecked(false);
+        // Reset audio to beginning
+        if (audioRef.current) {
+            audioRef.current.currentTime = 0;
+            audioRef.current.pause();
+        }
         console.log("Question:", question);
         console.log("Question properties:", {
             image: question.image,
@@ -82,7 +88,7 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
     return (
         <div className="mb-4 flex flex-col items-center">
             {question.sound ? (
-                <audio controls className="w-full max-w-md mt-4">
+                <audio ref={audioRef} controls className="w-full max-w-md mt-4" key={question.sound}>
                     <source src={question.sound} type="audio/mpeg" />
                     Your browser does not support the audio element.
                 </audio>
