@@ -25,16 +25,16 @@ export function CentralDataProvider({ children }: { children: React.ReactNode })
 
         // Generate questions from birds that have images
         const birdImagesData: Question[] = birdsData.data
-            .filter((bird: Bird) => bird.image && bird.image !== null)
-            .map((bird: Bird) => ({
+            .filter((bird: Bird): bird is Bird & { image: string } => Boolean(bird.image))
+            .map((bird) => ({
                 image: bird.image,
                 answer: bird.sabap2.toString()
             }));
 
         // Generate questions from birds that have sounds
         const birdSoundsData: Question[] = birdsData.data
-            .filter((bird: Bird) => bird.sound && bird.sound !== null)
-            .map((bird: Bird) => ({
+            .filter((bird: Bird): bird is Bird & { sound: string } => Boolean(bird.sound))
+            .map((bird) => ({
                 sound: bird.sound,
                 answer: bird.sabap2.toString()
             }));
