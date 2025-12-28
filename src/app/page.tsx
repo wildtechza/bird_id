@@ -11,24 +11,27 @@ export default function Home() {
   const [difficulty, setDifficulty] = useState<string>("beginner");
   const [count, setCount] = useState<number | string>(10);
   const [quizType, setQuizType] = useState<string>("images");
+  const [questionCountOptions, setQuestionCountOptions] = useState<(number | string)[]>([]);
 
   const handleStartQuiz = () => {
     router.push(`/quiz?difficulty=${difficulty}&count=${count}&type=${quizType}`);
   };
 
-  // Get available question count based on quiz type
-  const availableCount = quizType === "sounds" ? (birdSounds?.length ?? 0) : (birdImages?.length ?? 0);
-  
-  // Generate buttons based on available questions
-  const questionCountOptions: (number | string)[] = [10, 20, 50].filter(num => num <= availableCount);
-  questionCountOptions.push("All");
-
-  // Update count to first available option when quiz type changes or options change
   useEffect(() => {
-    if (questionCountOptions.length > 0 && !questionCountOptions.includes(count)) {
+
+    // Get available question count based on quiz type
+    const availableCount = quizType === "sounds" ? (birdSounds?.length ?? 0) : (birdImages?.length ?? 0);
+
+    // Generate buttons based on available questions
+    const questionCountOptions: (number | string)[] = [10, 20, 50].filter(num => num <= availableCount);
+    questionCountOptions.push("All");
+
+    setQuestionCountOptions(questionCountOptions);
+
+    if (questionCountOptions.length > 0) {
       setCount(questionCountOptions[0]);
     }
-  }, [quizType, availableCount, count, questionCountOptions]);
+  }, [quizType, birdImages, birdSounds]);
 
   return (
     <div className="flex flex-col items-center p-6 space-y-6 max-w-md mx-auto">
@@ -52,21 +55,19 @@ export default function Home() {
         <div className="flex gap-3">
           <button
             onClick={() => setQuizType("images")}
-            className={`flex-1 py-3 rounded-lg transition font-medium ${
-              quizType === "images"
-                ? "bg-blue-600 text-white"
-                : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-            }`}
+            className={`flex-1 py-3 rounded-lg transition font-medium ${quizType === "images"
+              ? "bg-blue-600 text-white"
+              : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+              }`}
           >
             Images
           </button>
           <button
             onClick={() => setQuizType("sounds")}
-            className={`flex-1 py-3 rounded-lg transition font-medium ${
-              quizType === "sounds"
-                ? "bg-blue-600 text-white"
-                : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-            }`}
+            className={`flex-1 py-3 rounded-lg transition font-medium ${quizType === "sounds"
+              ? "bg-blue-600 text-white"
+              : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+              }`}
           >
             Sounds
           </button>
@@ -80,8 +81,8 @@ export default function Home() {
           <button
             onClick={() => setDifficulty("beginner")}
             className={`flex-1 py-3 rounded-lg transition font-medium ${difficulty === "beginner"
-                ? "bg-blue-600 text-white"
-                : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+              ? "bg-blue-600 text-white"
+              : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
           >
             Beginner
@@ -89,8 +90,8 @@ export default function Home() {
           <button
             onClick={() => setDifficulty("advanced")}
             className={`flex-1 py-3 rounded-lg transition font-medium ${difficulty === "advanced"
-                ? "bg-blue-600 text-white"
-                : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+              ? "bg-blue-600 text-white"
+              : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
           >
             Advanced
@@ -107,8 +108,8 @@ export default function Home() {
               key={num}
               onClick={() => setCount(num)}
               className={`flex-1 py-3 rounded-lg transition font-medium ${count === num
-                  ? "bg-blue-600 text-white"
-                  : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                ? "bg-blue-600 text-white"
+                : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                 }`}
             >
               {num}
