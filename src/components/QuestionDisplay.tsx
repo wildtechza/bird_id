@@ -47,6 +47,12 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
         setResult(null);
         setFeedbackMsg("");
         setAnswerChecked(false);
+        console.log("Question:", question);
+        console.log("Question properties:", {
+            image: question.image,
+            sound: question.sound,
+            answer: question.answer
+        });
     }, [question]);
 
     function handleSelect(bird: Bird) {

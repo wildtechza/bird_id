@@ -35,7 +35,7 @@ export function CentralDataProvider({ children }: { children: React.ReactNode })
         const birdSoundsData: Question[] = birdsData.data
             .filter((bird: Bird) => bird.sound && bird.sound !== null)
             .map((bird: Bird) => ({
-                image: bird.sound,
+                sound: bird.sound,
                 answer: bird.sabap2.toString()
             }));
 
