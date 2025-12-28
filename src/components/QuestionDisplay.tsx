@@ -124,7 +124,7 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
                     <MultipleChoice birds={birds} currentQuestion={question} onMultipleChoiceChange={onMultipleChoiceChange}>
                     </MultipleChoice>)}
                 {difficulty == "advanced" && (
-                    <TypeAheadDisplay birds={birds} onBirdSelect={handleSelect} />
+                    <TypeAheadDisplay key={question.answer} birds={birds} onBirdSelect={handleSelect} />
                 )}
                 {result === "correct" && (
                     <div className="flex items-center justify-center mt-2 text-green-600 font-semibold">
