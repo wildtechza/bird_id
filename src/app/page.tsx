@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { useCentralData } from "../context/CentralDataContext";
@@ -15,6 +15,20 @@ export default function Home() {
   const handleStartQuiz = () => {
     router.push(`/quiz?difficulty=${difficulty}&count=${count}&type=${quizType}`);
   };
+
+  // Get available question count based on quiz type
+  const availableCount = quizType === "sounds" ? (birdSounds?.length ?? 0) : (birdImages?.length ?? 0);
+  
+  // Generate buttons based on available questions
+  const questionCountOptions: (number | string)[] = [10, 20, 50].filter(num => num <= availableCount);
+  questionCountOptions.push("All");
+
+  // Update count to first available option when quiz type changes or options change
+  useEffect(() => {
+    if (questionCountOptions.length > 0 && !questionCountOptions.includes(count)) {
+      setCount(questionCountOptions[0]);
+    }
+  }, [quizType, availableCount]);
 
   return (
     <div className="flex flex-col items-center p-6 space-y-6 max-w-md mx-auto">
@@ -88,7 +102,7 @@ export default function Home() {
       <div className="w-full">
         <h2 className="text-lg font-semibold mb-3">Number of Questions</h2>
         <div className="flex gap-3">
-          {[10, 20, 50, "All"].map((num) => (
+          {questionCountOptions.map((num) => (
             <button
               key={num}
               onClick={() => setCount(num)}

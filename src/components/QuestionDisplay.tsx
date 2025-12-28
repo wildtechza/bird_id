@@ -1,8 +1,9 @@
 import Image from "next/image";
-import { useRef, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Question } from "../models/Question";
 import { Bird } from "../models/Bird";
 import { MultipleChoice } from "./MultipleChoice";
+import { TypeAheadDisplay } from "./TypeAheadDisplay";
 
 const CORRECT_MESSAGES = [
     "Eggcellent! 🥚",
@@ -52,25 +53,6 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
         setAnswerChecked(false);
     }, [question]);
 
-    function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
-        const value = e.target.value;
-        setInput(value);
-        if (value.length === 0) {
-            setSuggestions([]);
-        } else {
-            setSuggestions(
-                birds.filter(bird => {
-                    const name = bird.fullName.toLowerCase();
-                    const words = value.toLowerCase().trim().split(/\s+/);
-                    return words.every(word => name.includes(word));
-                })
-            );
-            handleFocus();
-        }
-        setResult(null);
-        setFeedbackMsg("");
-    }
-
     function handleSelect(bird: Bird) {
         setInput(bird.fullName);
         setSuggestions([]);
@@ -97,80 +79,54 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
         }
     }
 
-    const suggestionsRef = useRef<HTMLUListElement>(null);
-
-    function handleFocus() {
-        setTimeout(() => {
-            console.log("Scrolling to suggestions");
-            suggestionsRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
-        }, 300);
-    };
-
     return (
         <div className="mb-4 flex flex-col items-center">
-            {!imageLoaded && (
-                <Image
-                    src="/loading.svg"
-                    alt="Loading..."
-                    width={400}
-                    height={300}
-                    style={{ height: "auto", width: "100%", maxWidth: "400px" }}
-                    className="animate-pulse"
-                />
-            )}
-            <img
-                src={question.image}
-                alt={`Question`}
-                width={400}
-                height={300}
-                style={{
-                    height: "auto",
-                    width: "100%",
-                    maxWidth: "400px",
-                    display: imageLoaded ? "block" : "none",
-                }}
-                onLoad={() => setImageLoaded(true)}
-            />
+            {question.sound ? (
+                <audio controls className="w-full max-w-md mt-4">
+                    <source src={question.sound} type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            ) : question.image ? (
+                <>
+                    {!imageLoaded && (
+                        <Image
+                            src="/loading.svg"
+                            alt="Loading..."
+                            width={400}
+                            height={300}
+                            style={{ height: "auto", width: "100%", maxWidth: "400px" }}
+                            className="animate-pulse"
+                        />
+                    )}
+                    <img
+                        src={question.image}
+                        alt={`Question`}
+                        width={400}
+                        height={300}
+                        style={{
+                            height: "auto",
+                            width: "100%",
+                            maxWidth: "400px",
+                            display: imageLoaded ? "block" : "none",
+                        }}
+                        onLoad={() => setImageLoaded(true)}
+                    />
+                </>
+            ) : null}
             <div className="mt-4 w-full relative" style={{ maxWidth: 400 }}>
                 {difficulty == "beginner" && (
                     <MultipleChoice birds={birds} currentQuestion={question} onMultipleChoiceChange={onMultipleChoiceChange}>
                     </MultipleChoice>)}
                 {difficulty == "advanced" && (
-                    <>
-                        <input
-                            type="text"
-                            value={input}
-                            onChange={handleChange}
-                            onFocus={handleFocus}
-                            placeholder="Type bird name..."
-                            className="w-full px-3 py-2 border rounded"
-                        />
-                        {suggestions.length > 0 && (
-                            <ul
-                                ref={suggestionsRef}
-                                className="w-full absolute left-0 border rounded shadow z-10 mt-1 max-h-40 overflow-y-auto 
-                            bg-white dark:bg-gray-800"
-                            >
-                                {suggestions.map(bird => (
-                                    <li
-                                        key={bird.fullName}
-                                        className="px-3 py-2 cursor-pointer hover:bg-blue-100"
-                                        onClick={() => handleSelect(bird)}
-                                    >
-                                        {bird.fullName}
-                                    </li>
-                                ))}
-                            </ul>
-                        )}
-                    </>
+                    <TypeAheadDisplay birds={birds} onBirdSelect={handleSelect} />
                 )}
                 {result === "correct" && (
-                    <div className="flex flex-col items-center mt-2 text-green-600 font-semibold">
+                    <div className="flex items-center justify-center mt-2 text-green-600 font-semibold">
                         <span className="mr-2">✔️</span> {feedbackMsg}
                     </div>
                 )}
                 {result === "incorrect" && (
-                    <div className="flex flex-col items-center mt-2 text-red-600 font-semibold">
+                    <div className="flex items-center justify-center mt-2 text-red-600 font-semibold">
                         <span className="mr-2">❌</span> {feedbackMsg}
                     </div>
                 )}

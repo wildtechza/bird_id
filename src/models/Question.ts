@@ -1,5 +1,6 @@
 export class Question {
-  image!: string;
+  image: string;
+  sound: string;
   answer!: string;
 
   constructor(data: Partial<Question>) {
