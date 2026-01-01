@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ Splash Screen Theme with App Icon in Circle -->
+    <style name="AppTheme.NoActionBarLaunch" parent="Theme.SplashScreen">
+        <!-- Splash screen background color -->
+        <item name="android:windowSplashScreenBackground">#e07a1f</item>
+        
+        <!-- App icon as splash icon (will be shown in circle on Android 12+) -->
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        
+        <!-- Keep splash visible for smooth transition -->
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        
+        <!-- Post splash screen theme -->
+        <item name="postSplashScreenTheme">@style/AppTheme.NoActionBar</item>
+    </style>
+</resources>
