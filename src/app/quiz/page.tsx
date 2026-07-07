@@ -73,7 +73,7 @@ export default function Quiz() {
     const allDataReady = currentQuestion && birds;
 
     return (
-        <div className="min-h-[100dvh] flex items-start justify-center p-4 sm:p-6 bg-[radial-gradient(circle_at_top_left,rgba(104,160,70,0.18),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(76,119,255,0.08),transparent_35%),linear-gradient(135deg,#0d1815,#121f1b)] text-[#f5f7f2]">
+        <div className="min-h-[100dvh] flex items-start justify-center p-4 sm:p-6">
             {allDataReady &&
                 <main className="w-full max-w-[860px] p-4 sm:p-5 rounded-[28px] bg-[rgba(20,31,28,0.82)] border border-white/12 shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_24px_60px_rgba(0,0,0,0.35)] backdrop-blur-xl flex flex-col gap-2.5 sm:gap-3 items-center">
                     <h1 className="m-0 text-center text-[#79b84c] text-xl sm:text-2xl font-extrabold">

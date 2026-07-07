@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-[100dvh] bg-[radial-gradient(circle_at_top_left,rgba(104,160,70,0.18),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(76,119,255,0.08),transparent_35%),linear-gradient(135deg,#0d1815,#121f1b)] text-[#f5f7f2]`}
       >
         <CentralDataProvider>
           <Suspense fallback={<div>Loading...</div>}>
