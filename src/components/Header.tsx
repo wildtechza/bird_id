@@ -27,7 +27,7 @@ export default function Header() {
           p-3 sm:px-9 sm:py-7 rounded-[20px] sm:rounded-[24px]
           bg-white border border-black/10
           shadow-[0_28px_70px_rgba(0,0,0,0.12)]
-          dark:bg-[linear-gradient(135deg,rgba(30,42,38,0.78),rgba(12,22,19,0.72))]
+          dark:bg-[rgba(20,31,28,0.82)]
           dark:border-white/12
           dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_28px_70px_rgba(0,0,0,0.35)]
           backdrop-blur-xl
