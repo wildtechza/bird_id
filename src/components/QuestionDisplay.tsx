@@ -97,11 +97,11 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
                     <>
                         {!imageLoaded && (
                             <Image
-                                src="/loading.svg"
+                                src="/loading.png"
                                 alt="Loading..."
                                 width={400}
                                 height={300}
-                                style={{ height: "auto", width: "100%", maxWidth: "400px" }}
+                                style={{ height: "auto", width: "100%", maxWidth: "400px", borderRadius: "16px" }}
                                 className="animate-pulse"
                             />
                         )}
