@@ -48,10 +48,10 @@ export function MultipleChoice({ birds, currentQuestion, onMultipleChoiceChange 
             {options.map((bird) => (
                 <label
                     key={bird.sabap2}
-                    className={`flex items-center px-4 py-2 rounded-lg border-2 cursor-pointer transition-all duration-200 ${
+                    className={`flex items-center px-4 py-3 rounded-[16px] cursor-pointer transition-all duration-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${
                         selectedBird?.sabap2 === bird.sabap2
-                            ? 'border-blue-500 bg-blue-50 shadow-md'
-                            : 'border-gray-200 bg-white hover:border-blue-300 hover:bg-gray-50'
+                            ? 'bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08)),rgba(255,255,255,0.06)] outline outline-2 outline-[rgba(151,216,91,0.7)]'
+                            : 'bg-white/[0.055] hover:-translate-y-0.5 hover:bg-white/[0.09]'
                     }`}
                 >
                     <input
@@ -62,7 +62,7 @@ export function MultipleChoice({ birds, currentQuestion, onMultipleChoiceChange 
                         onChange={() => onChange(bird)}
                         className="hidden"
                     />
-                    <span className="ml-3 text-gray-800 font-medium">{bird.fullName}</span>
+                    <span className="ml-3 text-white font-medium">{bird.fullName}</span>
                 </label>
             ))}
         </div>

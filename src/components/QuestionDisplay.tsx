@@ -86,40 +86,43 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
     }
 
     return (
-        <div className="mb-4 flex flex-col items-center">
-            {question.sound ? (
-                <audio ref={audioRef} controls className="w-full max-w-md mt-4" key={question.sound}>
-                    <source src={question.sound} type="audio/mpeg" />
-                    Your browser does not support the audio element.
-                </audio>
-            ) : question.image ? (
-                <>
-                    {!imageLoaded && (
-                        <Image
-                            src="/loading.svg"
-                            alt="Loading..."
+        <div className="w-full flex flex-col items-center gap-4 sm:gap-5">
+            <div className="w-full p-4 sm:p-[18px] rounded-[22px] bg-white/[0.035] shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] flex flex-col items-center">
+                {question.sound ? (
+                    <audio ref={audioRef} controls className="w-full max-w-md" key={question.sound}>
+                        <source src={question.sound} type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                    </audio>
+                ) : question.image ? (
+                    <>
+                        {!imageLoaded && (
+                            <Image
+                                src="/loading.svg"
+                                alt="Loading..."
+                                width={400}
+                                height={300}
+                                style={{ height: "auto", width: "100%", maxWidth: "400px" }}
+                                className="animate-pulse"
+                            />
+                        )}
+                        <img
+                            src={question.image}
+                            alt={`Question`}
                             width={400}
                             height={300}
-                            style={{ height: "auto", width: "100%", maxWidth: "400px" }}
-                            className="animate-pulse"
+                            style={{
+                                height: "auto",
+                                width: "100%",
+                                maxWidth: "400px",
+                                display: imageLoaded ? "block" : "none",
+                                borderRadius: "16px",
+                            }}
+                            onLoad={() => setImageLoaded(true)}
                         />
-                    )}
-                    <img
-                        src={question.image}
-                        alt={`Question`}
-                        width={400}
-                        height={300}
-                        style={{
-                            height: "auto",
-                            width: "100%",
-                            maxWidth: "400px",
-                            display: imageLoaded ? "block" : "none",
-                        }}
-                        onLoad={() => setImageLoaded(true)}
-                    />
-                </>
-            ) : null}
-            <div className="mt-4 w-full relative" style={{ maxWidth: 400 }}>
+                    </>
+                ) : null}
+            </div>
+            <div className="w-full relative" style={{ maxWidth: 560 }}>
                 {difficulty == "beginner" && (
                     <MultipleChoice birds={birds} currentQuestion={question} onMultipleChoiceChange={onMultipleChoiceChange}>
                     </MultipleChoice>)}
@@ -127,12 +130,12 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
                     <TypeAheadDisplay key={question.answer} birds={birds} onBirdSelect={handleSelect} />
                 )}
                 {result === "correct" && (
-                    <div className="flex items-center justify-center mt-2 text-green-600 font-semibold">
+                    <div className="flex items-center justify-center mt-2 text-[#a8e96f] font-semibold">
                         <span className="mr-2">✔️</span> {feedbackMsg}
                     </div>
                 )}
                 {result === "incorrect" && (
-                    <div className="flex items-center justify-center mt-2 text-red-600 font-semibold">
+                    <div className="flex items-center justify-center mt-2 text-[#ff6b6b] font-semibold">
                         <span className="mr-2">❌</span> {feedbackMsg}
                     </div>
                 )}

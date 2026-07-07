@@ -73,13 +73,15 @@ export default function Quiz() {
     const allDataReady = currentQuestion && birds;
 
     return (
-        <div className="font-sans flex flex-col min-h-screen px-4 sm:px-8">
+        <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 bg-[radial-gradient(circle_at_top_left,rgba(104,160,70,0.18),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(76,119,255,0.08),transparent_35%),linear-gradient(135deg,#0d1815,#121f1b)] text-[#f5f7f2]">
             {allDataReady &&
-                <main className="flex flex-col gap-4 items-center">
-                    <h1 className="text-2xl font-bold">{questionsToAsk.length + 1} Questions to go!</h1>
-                    <QuestionDisplay 
-                        question={currentQuestion} 
-                        birds={birds} 
+                <main className="w-full max-w-[860px] p-5 sm:p-7 rounded-[28px] bg-[rgba(20,31,28,0.82)] border border-white/12 shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_24px_60px_rgba(0,0,0,0.35)] backdrop-blur-xl flex flex-col gap-5 sm:gap-6 items-center">
+                    <h1 className="m-0 text-center text-[#79b84c] text-2xl sm:text-[30px] font-extrabold">
+                        {questionsToAsk.length + 1} Questions to go!
+                    </h1>
+                    <QuestionDisplay
+                        question={currentQuestion}
+                        birds={birds}
                         difficulty={difficulty}
                         onAnswerChecked={(isCorrect) => {
                             if (isCorrect) {
@@ -88,20 +90,20 @@ export default function Quiz() {
                         }}
                     />
                     {showAnswer && (
-                        <div className="mt-2 text-lg font-semibold text-blue-700">
+                        <div className="w-full p-4 sm:p-[18px] rounded-[22px] bg-white/[0.035] shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] text-center text-lg font-semibold text-[#a8e96f]">
                             Answer: {correctBird?.fullName || currentQuestion?.answer}
                         </div>
                     )}
-                    <div className="flex gap-4">
+                    <div className="w-full flex flex-col sm:flex-row gap-3 sm:gap-[14px]">
                         <button
-                            className="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700"
+                            className="flex-1 h-14 sm:h-[60px] rounded-[18px] bg-white/[0.055] text-white text-lg font-bold shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] transition duration-200 hover:-translate-y-0.5 hover:bg-white/[0.09]"
                             onClick={() => setShowAnswer(true)}
                         >
                             View Answer
                         </button>
 
                         <button
-                            className={`px-4 py-2 text-white rounded bg-blue-600 hover:bg-blue-700`}
+                            className="flex-1 h-14 sm:h-[60px] rounded-[18px] bg-[linear-gradient(135deg,#76aa48,#4f872f)] text-white text-lg font-extrabold shadow-[inset_0_1px_0_rgba(255,255,255,0.2),0_16px_36px_rgba(76,128,47,0.35)] transition duration-200 hover:-translate-y-0.5 hover:brightness-105"
                             onClick={askRandomQuestion}
                         >
                             Next
@@ -109,7 +111,6 @@ export default function Quiz() {
                     </div>
                 </main>
             }
-            <footer className="flex gap-[24px] flex-wrap items-center justify-center"></footer>
         </div>
     );
 }
