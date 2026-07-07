@@ -49,7 +49,7 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-3 sm:gap-[14px]">
               <button
                 onClick={() => setQuizType("images")}
-                className={`h-28 sm:h-[128px] rounded-[20px] flex flex-col items-center justify-center gap-3 text-lg sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${quizType === "images"
+                className={`h-28 sm:h-[128px] rounded-[20px] flex flex-col items-center justify-center gap-3 pt-4 sm:pt-0 text-lg sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${quizType === "images"
                   ? "bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08)),rgba(255,255,255,0.06)] outline outline-2 outline-[rgba(151,216,91,0.7)]"
                   : "bg-white/[0.055] hover:-translate-y-0.5 hover:bg-white/[0.09]"
                   }`}
@@ -65,7 +65,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => setQuizType("sounds")}
-                className={`h-28 sm:h-[128px] rounded-[20px] flex flex-col items-center justify-center gap-3 text-lg sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${quizType === "sounds"
+                className={`h-28 sm:h-[128px] rounded-[20px] flex flex-col items-center justify-center gap-3 pt-4 sm:pt-0 text-lg sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${quizType === "sounds"
                   ? "bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08)),rgba(255,255,255,0.06)] outline outline-2 outline-[rgba(151,216,91,0.7)]"
                   : "bg-white/[0.055] hover:-translate-y-0.5 hover:bg-white/[0.09]"
                   }`}
@@ -91,7 +91,7 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-3 sm:gap-[14px]">
               <button
                 onClick={() => setDifficulty("beginner")}
-                className={`h-28 sm:h-[128px] rounded-[20px] flex flex-col items-center justify-center gap-3 text-lg sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${difficulty === "beginner"
+                className={`h-28 sm:h-[128px] rounded-[20px] flex flex-col items-center justify-center gap-3 pt-4 sm:pt-0 text-lg sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${difficulty === "beginner"
                   ? "bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08)),rgba(255,255,255,0.06)] outline outline-2 outline-[rgba(151,216,91,0.7)]"
                   : "bg-white/[0.055] hover:-translate-y-0.5 hover:bg-white/[0.09]"
                   }`}
@@ -107,7 +107,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => setDifficulty("advanced")}
-                className={`h-28 sm:h-[128px] rounded-[20px] flex flex-col items-center justify-center gap-3 text-lg sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${difficulty === "advanced"
+                className={`h-28 sm:h-[128px] rounded-[20px] flex flex-col items-center justify-center gap-3 pt-4 sm:pt-0 text-lg sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${difficulty === "advanced"
                   ? "bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08)),rgba(255,255,255,0.06)] outline outline-2 outline-[rgba(151,216,91,0.7)]"
                   : "bg-white/[0.055] hover:-translate-y-0.5 hover:bg-white/[0.09]"
                   }`}
