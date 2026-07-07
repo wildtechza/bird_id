@@ -5,8 +5,11 @@
         <!-- Splash screen background color -->
         <item name="android:windowSplashScreenBackground">#e07a1f</item>
         
-        <!-- App icon as splash icon (will be shown in circle on Android 12+) -->
-        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <!-- Use constrained layer-list to prevent icon clipping on Android 16 -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
+        
+        <!-- Match icon background to splash background to hide outline -->
+        <item name="android:windowSplashScreenIconBackgroundColor">#e07a1f</item>
         
         <!-- Keep splash visible for smooth transition -->
         <item name="android:windowSplashScreenAnimationDuration">1000</item>
