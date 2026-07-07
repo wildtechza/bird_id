@@ -132,7 +132,7 @@ export default function Home() {
           className="w-full h-14 sm:h-[92px] mt-3 sm:mt-6 rounded-[20px] sm:rounded-[24px] text-lg sm:text-[30px]"
         >
           Start New Quiz
-          <span className="ml-4 text-3xl sm:text-4xl">→</span>
+          <span className="text-3xl sm:text-4xl">→</span>
         </PrimaryButton>
 
         {/* Selected Summary */}

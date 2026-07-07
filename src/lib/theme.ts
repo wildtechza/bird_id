@@ -58,6 +58,7 @@ export const buttonBase =
 /** Primary green CTA (Start Quiz, Next, Home). */
 export const primaryButton = [
   "bg-[linear-gradient(135deg,#76aa48,#4f872f)] text-white font-extrabold",
+  "flex items-center justify-center gap-4",
   "shadow-[inset_0_1px_0_rgba(255,255,255,0.2),0_16px_36px_rgba(76,128,47,0.35)]",
   "transition duration-200 hover:-translate-y-0.5 hover:brightness-105",
 ].join(" ");
