@@ -36,7 +36,7 @@ export default function Home() {
     "h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl";
 
   return (
-    <div className="min-h-[100dvh] flex items-start justify-center p-3 sm:p-6">
+    <div className="flex items-start justify-center p-3 sm:p-6">
       <Card className="p-4 sm:p-7">
         <h2 className={`m-0 mb-3 sm:mb-6 text-center ${accentGreen} text-xl sm:text-[30px] font-extrabold`}>
           Ready for a new quiz?

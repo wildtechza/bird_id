@@ -23,7 +23,7 @@ export default function Header() {
     >
       <div
         className="
-          w-full max-w-[860px] flex items-center gap-3 sm:gap-[22px]
+          w-full max-w-[860px] flex items-center justify-center gap-3 sm:gap-[22px]
           p-3 sm:px-9 sm:py-7 rounded-[20px] sm:rounded-[24px]
           bg-white border border-black/10
           shadow-[0_28px_70px_rgba(0,0,0,0.12)]
