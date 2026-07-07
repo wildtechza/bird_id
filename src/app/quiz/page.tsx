@@ -23,7 +23,7 @@ export default function Quiz() {
         );
 
     return (
-        <div className="min-h-[100dvh] flex items-start justify-center p-4 sm:p-6">
+        <div className="flex items-start justify-center p-4 sm:p-6">
             {ready && (
                 <Card className="p-4 sm:p-5 rounded-[28px] flex flex-col gap-2.5 sm:gap-3 items-center">
                     <h1 className={`m-0 text-center ${accentGreen} text-xl sm:text-2xl font-extrabold`}>
