@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useCentralData } from "../context/CentralDataContext";
+import { Card, Section, SelectableButton, PrimaryButton } from "../components/ui";
+import { accentGreen, accentLightGreen, buttonBase, selectedPurple, unselected } from "../lib/theme";
 
 export default function Home() {
   const { birdImages, birdSounds } = useCentralData();
@@ -17,42 +19,37 @@ export default function Home() {
   };
 
   useEffect(() => {
-    // Get available question count based on quiz type
     const availableCount = quizType === "sounds" ? (birdSounds?.length ?? 0) : (birdImages?.length ?? 0);
+    const options: (number | string)[] = [10, 20, 50].filter(num => num <= availableCount);
+    options.push("All");
 
-    // Generate buttons based on available questions
-    const questionCountOptions: (number | string)[] = [10, 20, 50].filter(num => num <= availableCount);
-    questionCountOptions.push("All");
+    setQuestionCountOptions(options);
 
-    setQuestionCountOptions(questionCountOptions);
-
-    if (questionCountOptions.length > 0) {
-      setCount(questionCountOptions[0]);
+    if (options.length > 0) {
+      setCount(options[0]);
     }
   }, [quizType, birdImages, birdSounds]);
 
   const questionText = count === "All" ? "ALL questions" : `${count} questions`;
 
-  const selectedGreen = "bg-[linear-gradient(180deg,rgba(121,184,76,0.28),rgba(121,184,76,0.10))] outline outline-2 outline-[rgba(121,184,76,0.8)] dark:bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08))] dark:outline-[rgba(151,216,91,0.7)]";
-  const unselected = "bg-black/[0.05] hover:-translate-y-0.5 hover:bg-black/[0.08] dark:bg-white/[0.055] dark:hover:bg-white/[0.09]";
+  const selectableBtn =
+    "h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl";
 
   return (
     <div className="min-h-[100dvh] flex items-start justify-center p-3 sm:p-6">
-      <main className="w-full max-w-[860px] p-4 sm:p-7 rounded-[24px] sm:rounded-[28px] bg-white border border-black/10 shadow-[0_24px_60px_rgba(0,0,0,0.12)] dark:bg-[rgba(20,31,28,0.82)] dark:border-white/12 dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_24px_60px_rgba(0,0,0,0.35)] backdrop-blur-xl">
-        <h2 className="m-0 mb-3 sm:mb-6 text-center text-[#5b8a2e] dark:text-[#79b84c] text-xl sm:text-[30px] font-extrabold">
+      <Card className="p-4 sm:p-7">
+        <h2 className={`m-0 mb-3 sm:mb-6 text-center ${accentGreen} text-xl sm:text-[30px] font-extrabold`}>
           Ready for a new quiz?
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-[22px]">
           {/* Quiz Type Selection */}
-          <section className="p-3 sm:p-[18px] rounded-[18px] sm:rounded-[22px] bg-black/[0.04] dark:bg-white/[0.035] shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
-            <div className="mb-2 sm:mb-[14px] text-black/72 dark:text-white/72 text-xs sm:text-sm font-bold uppercase tracking-[0.08em]">
-              Quiz Type
-            </div>
+          <Section label="Quiz Type">
             <div className="grid grid-cols-2 gap-2 sm:gap-[14px]">
-              <button
+              <SelectableButton
+                selected={quizType === "images"}
                 onClick={() => setQuizType("images")}
-                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${quizType === "images" ? selectedGreen : unselected}`}
+                className={selectableBtn}
               >
                 <span className="w-10 h-10 sm:w-[66px] sm:h-[66px] rounded-[12px] sm:rounded-[18px] grid place-items-center bg-[rgba(91,138,46,0.16)] dark:bg-[rgba(147,214,91,0.18)] text-[#5b8a2e] dark:text-[#a8e96f]">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="sm:w-[34px] sm:h-[34px]">
@@ -62,10 +59,11 @@ export default function Home() {
                   </svg>
                 </span>
                 <span>Images</span>
-              </button>
-              <button
+              </SelectableButton>
+              <SelectableButton
+                selected={quizType === "sounds"}
                 onClick={() => setQuizType("sounds")}
-                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${quizType === "sounds" ? selectedGreen : unselected}`}
+                className={selectableBtn}
               >
                 <span className="w-10 h-10 sm:w-[66px] sm:h-[66px] rounded-[12px] sm:rounded-[18px] grid place-items-center bg-[rgba(255,143,21,0.14)] text-[#d97600] dark:text-[#ff8f15]">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="sm:w-[34px] sm:h-[34px]">
@@ -76,19 +74,17 @@ export default function Home() {
                   </svg>
                 </span>
                 <span>Sounds</span>
-              </button>
+              </SelectableButton>
             </div>
-          </section>
+          </Section>
 
           {/* Difficulty Selection */}
-          <section className="p-3 sm:p-[18px] rounded-[18px] sm:rounded-[22px] bg-black/[0.04] dark:bg-white/[0.035] shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
-            <div className="mb-2 sm:mb-[14px] text-black/72 dark:text-white/72 text-xs sm:text-sm font-bold uppercase tracking-[0.08em]">
-              Difficulty
-            </div>
+          <Section label="Difficulty">
             <div className="grid grid-cols-2 gap-2 sm:gap-[14px]">
-              <button
+              <SelectableButton
+                selected={difficulty === "beginner"}
                 onClick={() => setDifficulty("beginner")}
-                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${difficulty === "beginner" ? selectedGreen : unselected}`}
+                className={selectableBtn}
               >
                 <span className="w-10 h-10 sm:w-[66px] sm:h-[66px] rounded-[12px] sm:rounded-[18px] grid place-items-center bg-[rgba(70,135,255,0.16)] text-[#3b6fe0] dark:text-[#5d91ff]">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="sm:w-[34px] sm:h-[34px]">
@@ -98,10 +94,11 @@ export default function Home() {
                   </svg>
                 </span>
                 <span>Beginner</span>
-              </button>
-              <button
+              </SelectableButton>
+              <SelectableButton
+                selected={difficulty === "advanced"}
                 onClick={() => setDifficulty("advanced")}
-                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${difficulty === "advanced" ? selectedGreen : unselected}`}
+                className={selectableBtn}
               >
                 <span className="w-10 h-10 sm:w-[66px] sm:h-[66px] rounded-[12px] sm:rounded-[18px] grid place-items-center bg-[rgba(154,82,255,0.16)] text-[#7c3aed] dark:text-[#a061ff]">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="sm:w-[36px] sm:h-[36px]">
@@ -109,49 +106,43 @@ export default function Home() {
                   </svg>
                 </span>
                 <span>Advanced</span>
-              </button>
+              </SelectableButton>
             </div>
-          </section>
+          </Section>
 
           {/* Question Count Selection */}
-          <section className="p-3 sm:p-[18px] rounded-[18px] sm:rounded-[22px] bg-black/[0.04] dark:bg-white/[0.035] shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] sm:col-span-2 col-span-1">
-            <div className="mb-2 sm:mb-[14px] text-black/72 dark:text-white/72 text-xs sm:text-sm font-bold uppercase tracking-[0.08em]">
-              Questions
-            </div>
+          <Section label="Questions" className="sm:col-span-2 col-span-1">
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-[14px]">
               {questionCountOptions.map((num) => (
                 <button
                   key={num}
                   onClick={() => setCount(num)}
-                  className={`h-12 sm:h-[78px] rounded-[14px] sm:rounded-[18px] text-base sm:text-2xl font-extrabold transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${count === num
-                    ? "bg-[linear-gradient(180deg,rgba(154,82,255,0.22),rgba(154,82,255,0.06))] outline outline-2 outline-[rgba(124,58,237,0.6)] text-[#7c3aed] dark:bg-[linear-gradient(180deg,rgba(154,82,255,0.28),rgba(154,82,255,0.08))] dark:outline-[rgba(160,97,255,0.8)] dark:text-[#d8c1ff]"
-                    : unselected
-                    }`}
+                  className={`h-12 sm:h-[78px] rounded-[14px] sm:rounded-[18px] text-base sm:text-2xl font-extrabold ${buttonBase} ${count === num ? selectedPurple : unselected}`}
                 >
                   {num}
                 </button>
               ))}
             </div>
-          </section>
+          </Section>
         </div>
 
         {/* Start Quiz Button */}
-        <button
+        <PrimaryButton
           onClick={handleStartQuiz}
-          className="w-full h-14 sm:h-[92px] mt-3 sm:mt-6 rounded-[20px] sm:rounded-[24px] bg-[linear-gradient(135deg,#76aa48,#4f872f)] text-white text-lg sm:text-[30px] font-extrabold shadow-[inset_0_1px_0_rgba(255,255,255,0.2),0_16px_36px_rgba(76,128,47,0.35)] transition duration-200 hover:-translate-y-0.5 hover:brightness-105"
+          className="w-full h-14 sm:h-[92px] mt-3 sm:mt-6 rounded-[20px] sm:rounded-[24px] text-lg sm:text-[30px]"
         >
           Start New Quiz
           <span className="ml-4 text-3xl sm:text-4xl">→</span>
-        </button>
+        </PrimaryButton>
 
         {/* Selected Summary */}
         <div className="mt-2 sm:mt-[18px] text-center text-black/68 dark:text-white/68 text-sm">
           Selected:{" "}
-          <strong className="text-[#5b8a2e] dark:text-[#a8e96f] font-bold capitalize">{quizType}</strong>,{" "}
-          <strong className="text-[#5b8a2e] dark:text-[#a8e96f] font-bold capitalize">{difficulty}</strong>,{" "}
-          <strong className="text-[#5b8a2e] dark:text-[#a8e96f] font-bold">{questionText}</strong>
+          <strong className={`${accentLightGreen} font-bold capitalize`}>{quizType}</strong>,{" "}
+          <strong className={`${accentLightGreen} font-bold capitalize`}>{difficulty}</strong>,{" "}
+          <strong className={`${accentLightGreen} font-bold`}>{questionText}</strong>
         </div>
-      </main>
+      </Card>
     </div>
   );
 }

@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
+import { Card, PrimaryButton } from "../../components/ui";
+import { section, accentGreen, accentLightGreen } from "../../lib/theme";
 
 function CompleteContent() {
   const searchParams = useSearchParams();
@@ -12,13 +14,13 @@ function CompleteContent() {
 
   return (
     <div className="min-h-[100dvh] flex items-start justify-center p-4 sm:p-6">
-      <main className="w-full max-w-[860px] p-5 sm:p-7 rounded-[24px] sm:rounded-[28px] bg-white border border-black/10 shadow-[0_24px_60px_rgba(0,0,0,0.12)] dark:bg-[rgba(20,31,28,0.82)] dark:border-white/12 dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_24px_60px_rgba(0,0,0,0.35)] backdrop-blur-xl flex flex-col items-center gap-5 sm:gap-6">
-        <h1 className="m-0 text-center text-[#5b8a2e] dark:text-[#79b84c] text-2xl sm:text-[30px] font-extrabold">
+      <Card className="p-5 sm:p-7 rounded-[24px] sm:rounded-[28px] flex flex-col items-center gap-5 sm:gap-6">
+        <h1 className={`m-0 text-center ${accentGreen} text-2xl sm:text-[30px] font-extrabold`}>
           Quiz Complete!
         </h1>
 
-        <div className="w-full p-4 sm:p-[18px] rounded-[22px] bg-black/[0.04] dark:bg-white/[0.035] shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] text-center">
-          <div className="text-5xl sm:text-6xl font-extrabold text-[#5b8a2e] dark:text-[#a8e96f] mb-2">{score}/{total}</div>
+        <div className={`w-full p-4 sm:p-[18px] rounded-[22px] ${section} text-center`}>
+          <div className={`text-5xl sm:text-6xl font-extrabold ${accentLightGreen} mb-2`}>{score}/{total}</div>
           <div className="text-2xl text-black/80 dark:text-white/80">{percentage}%</div>
           <div className="text-black/60 dark:text-white/60 mt-2">Correct Answers</div>
         </div>
@@ -31,7 +33,7 @@ function CompleteContent() {
             Home
           </Link>
         </div>
-      </main>
+      </Card>
     </div>
   );
 }
