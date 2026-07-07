@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "../context/CentralDataContext";
-import Image from "next/image";
 import { Suspense } from "react";
 import { CentralDataProvider } from "../context/CentralDataContext";
+import Header from "../components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,18 +31,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="w-full bg-[#E07A1F] flex justify-center items-center py-2 sm:py-3">
-          <Image
-            src="/bird_id.png"
-            alt="Bird Id"
-            width={400}
-            height={180}
-            priority
-            className="h-auto w-[200px] sm:w-[400px]"
-          />
-        </header>
         <CentralDataProvider>
           <Suspense fallback={<div>Loading...</div>}>
+            <Header />
             {children}
           </Suspense>
         </CentralDataProvider>
