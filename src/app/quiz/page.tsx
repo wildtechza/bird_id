@@ -36,17 +36,19 @@ export default function Quiz() {
                         onAnswerChecked={recordAnswer}
                     />
                     {showAnswer && (
-                        <div className={`w-full p-4 sm:p-[18px] rounded-[22px] ${section} text-center text-lg font-semibold ${accentLightGreen}`}>
+                        <div className={`w-full px-4 py-2 sm:px-[18px] sm:py-2.5 rounded-[18px] ${section} text-center text-base sm:text-lg font-semibold ${accentLightGreen}`}>
                             Answer: {correctBird?.fullName || currentQuestion?.answer}
                         </div>
                     )}
                     <div className="w-full flex flex-col sm:flex-row gap-3 sm:gap-[14px]">
-                        <GhostButton
-                            onClick={revealAnswer}
-                            className="flex-1 h-14 sm:h-[60px] rounded-[18px] text-lg"
-                        >
-                            View Answer
-                        </GhostButton>
+                        {!showAnswer && (
+                            <GhostButton
+                                onClick={revealAnswer}
+                                className="flex-1 h-14 sm:h-[60px] rounded-[18px] text-lg"
+                            >
+                                View Answer
+                            </GhostButton>
+                        )}
                         <PrimaryButton
                             onClick={next}
                             className="flex-1 h-14 sm:h-[60px] rounded-[18px] text-lg"
