@@ -1,4 +1,4 @@
-import Image from "next/image";
+ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { Question } from "../models/Question";
 import { Bird } from "../models/Bird";
@@ -86,8 +86,8 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
     }
 
     return (
-        <div className="w-full flex flex-col items-center gap-4 sm:gap-5">
-            <div className="w-full p-4 sm:p-[18px] rounded-[22px] bg-white/[0.035] shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] flex flex-col items-center">
+        <div className="w-full flex flex-col items-center gap-2.5 sm:gap-3">
+            <div className="w-full p-3 sm:p-4 rounded-[22px] bg-white/[0.035] shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] flex flex-col items-center">
                 {question.sound ? (
                     <audio ref={audioRef} controls className="w-full max-w-md" key={question.sound}>
                         <source src={question.sound} type="audio/mpeg" />
