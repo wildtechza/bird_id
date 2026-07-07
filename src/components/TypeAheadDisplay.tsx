@@ -49,17 +49,17 @@ export function TypeAheadDisplay({ birds, onBirdSelect }: TypeAheadDisplayProps)
                 onChange={handleChange}
                 onFocus={handleFocus}
                 placeholder="Type bird name..."
-                className="w-full px-4 py-3 rounded-[16px] bg-white/[0.055] text-white placeholder-white/50 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] outline-none focus:outline-2 focus:outline-[rgba(151,216,91,0.7)]"
+                className="w-full px-4 py-3 rounded-[16px] bg-black/[0.05] text-[#171717] placeholder-black/40 dark:bg-white/[0.055] dark:text-white dark:placeholder-white/50 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] outline-none focus:outline-2 focus:outline-[rgba(121,184,76,0.8)] dark:focus:outline-[rgba(151,216,91,0.7)]"
             />
             {suggestions.length > 0 && (
                 <ul
                     ref={suggestionsRef}
-                    className="w-full absolute left-0 rounded-[16px] shadow-[0_16px_36px_rgba(0,0,0,0.35)] z-10 mt-1 max-h-40 overflow-y-auto bg-[rgba(20,31,28,0.95)] border border-white/12 backdrop-blur-xl"
+                    className="w-full absolute left-0 rounded-[16px] shadow-[0_16px_36px_rgba(0,0,0,0.18)] dark:shadow-[0_16px_36px_rgba(0,0,0,0.35)] z-10 mt-1 max-h-40 overflow-y-auto bg-white dark:bg-[rgba(20,31,28,0.95)] border border-black/10 dark:border-white/12 backdrop-blur-xl"
                 >
                     {suggestions.map(bird => (
                         <li
                             key={bird.fullName}
-                            className="px-4 py-3 cursor-pointer text-white hover:bg-white/[0.09] first:rounded-t-[16px] last:rounded-b-[16px]"
+                            className="px-4 py-3 cursor-pointer text-[#171717] dark:text-white hover:bg-black/[0.08] dark:hover:bg-white/[0.09] first:rounded-t-[16px] last:rounded-b-[16px]"
                             onClick={() => handleSelect(bird)}
                         >
                             {bird.fullName}

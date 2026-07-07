@@ -87,7 +87,7 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
 
     return (
         <div className="w-full flex flex-col items-center gap-2.5 sm:gap-3">
-            <div className="w-full p-3 sm:p-4 rounded-[22px] bg-white/[0.035] shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] flex flex-col items-center">
+            <div className="w-full p-3 sm:p-4 rounded-[22px] bg-black/[0.04] dark:bg-white/[0.035] shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] flex flex-col items-center">
                 {question.sound ? (
                     <audio ref={audioRef} controls className="w-full max-w-md" key={question.sound}>
                         <source src={question.sound} type="audio/mpeg" />
@@ -130,7 +130,7 @@ export function QuestionDisplay({ question, birds, difficulty, onAnswerChecked }
                     <TypeAheadDisplay key={question.answer} birds={birds} onBirdSelect={handleSelect} />
                 )}
                 {result === "correct" && (
-                    <div className="flex items-center justify-center mt-2 text-[#a8e96f] font-semibold">
+                    <div className="flex items-center justify-center mt-2 text-[#5b8a2e] dark:text-[#a8e96f] font-semibold">
                         <span className="mr-2">✔️</span> {feedbackMsg}
                     </div>
                 )}
