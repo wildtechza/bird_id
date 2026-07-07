@@ -50,7 +50,7 @@ export function MultipleChoice({ birds, currentQuestion, onMultipleChoiceChange 
                     key={bird.sabap2}
                     className={`flex items-center px-3 sm:px-4 py-2 sm:py-2.5 rounded-[14px] cursor-pointer transition-all duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${
                         selectedBird?.sabap2 === bird.sabap2
-                            ? 'bg-[linear-gradient(180deg,rgba(121,184,76,0.28),rgba(121,184,76,0.10)),rgba(0,0,0,0.03)] outline outline-2 outline-[rgba(121,184,76,0.8)] dark:bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08)),rgba(255,255,255,0.06)] dark:outline-[rgba(151,216,91,0.7)]'
+                            ? 'bg-[linear-gradient(180deg,rgba(121,184,76,0.28),rgba(121,184,76,0.10))] outline outline-2 outline-[rgba(121,184,76,0.8)] dark:bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08))] dark:outline-[rgba(151,216,91,0.7)]'
                             : 'bg-black/[0.05] hover:-translate-y-0.5 hover:bg-black/[0.08] dark:bg-white/[0.055] dark:hover:bg-white/[0.09]'
                     }`}
                 >

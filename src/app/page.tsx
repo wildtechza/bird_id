@@ -33,6 +33,9 @@ export default function Home() {
 
   const questionText = count === "All" ? "ALL questions" : `${count} questions`;
 
+  const selectedGreen = "bg-[linear-gradient(180deg,rgba(121,184,76,0.28),rgba(121,184,76,0.10))] outline outline-2 outline-[rgba(121,184,76,0.8)] dark:bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08))] dark:outline-[rgba(151,216,91,0.7)]";
+  const unselected = "bg-black/[0.05] hover:-translate-y-0.5 hover:bg-black/[0.08] dark:bg-white/[0.055] dark:hover:bg-white/[0.09]";
+
   return (
     <div className="min-h-[100dvh] flex items-start justify-center p-3 sm:p-6">
       <main className="w-full max-w-[860px] p-4 sm:p-7 rounded-[24px] sm:rounded-[28px] bg-white border border-black/10 shadow-[0_24px_60px_rgba(0,0,0,0.12)] dark:bg-[rgba(20,31,28,0.82)] dark:border-white/12 dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_24px_60px_rgba(0,0,0,0.35)] backdrop-blur-xl">
@@ -49,10 +52,7 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-2 sm:gap-[14px]">
               <button
                 onClick={() => setQuizType("images")}
-                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${quizType === "images"
-                  ? "bg-[linear-gradient(180deg,rgba(121,184,76,0.28),rgba(121,184,76,0.10)),rgba(0,0,0,0.03)] outline outline-2 outline-[rgba(121,184,76,0.8)] dark:bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08)),rgba(255,255,255,0.06)] dark:outline-[rgba(151,216,91,0.7)]"
-                  : "bg-black/[0.05] hover:-translate-y-0.5 hover:bg-black/[0.08] dark:bg-white/[0.055] dark:hover:bg-white/[0.09]"
-                  }`}
+                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${quizType === "images" ? selectedGreen : unselected}`}
               >
                 <span className="w-10 h-10 sm:w-[66px] sm:h-[66px] rounded-[12px] sm:rounded-[18px] grid place-items-center bg-[rgba(91,138,46,0.16)] dark:bg-[rgba(147,214,91,0.18)] text-[#5b8a2e] dark:text-[#a8e96f]">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="sm:w-[34px] sm:h-[34px]">
@@ -65,10 +65,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => setQuizType("sounds")}
-                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${quizType === "sounds"
-                  ? "bg-[linear-gradient(180deg,rgba(121,184,76,0.28),rgba(121,184,76,0.10)),rgba(0,0,0,0.03)] outline outline-2 outline-[rgba(121,184,76,0.8)] dark:bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08)),rgba(255,255,255,0.06)] dark:outline-[rgba(151,216,91,0.7)]"
-                  : "bg-black/[0.05] hover:-translate-y-0.5 hover:bg-black/[0.08] dark:bg-white/[0.055] dark:hover:bg-white/[0.09]"
-                  }`}
+                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${quizType === "sounds" ? selectedGreen : unselected}`}
               >
                 <span className="w-10 h-10 sm:w-[66px] sm:h-[66px] rounded-[12px] sm:rounded-[18px] grid place-items-center bg-[rgba(255,143,21,0.14)] text-[#d97600] dark:text-[#ff8f15]">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="sm:w-[34px] sm:h-[34px]">
@@ -91,10 +88,7 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-2 sm:gap-[14px]">
               <button
                 onClick={() => setDifficulty("beginner")}
-                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${difficulty === "beginner"
-                  ? "bg-[linear-gradient(180deg,rgba(121,184,76,0.28),rgba(121,184,76,0.10)),rgba(0,0,0,0.03)] outline outline-2 outline-[rgba(121,184,76,0.8)] dark:bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08)),rgba(255,255,255,0.06)] dark:outline-[rgba(151,216,91,0.7)]"
-                  : "bg-black/[0.05] hover:-translate-y-0.5 hover:bg-black/[0.08] dark:bg-white/[0.055] dark:hover:bg-white/[0.09]"
-                  }`}
+                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${difficulty === "beginner" ? selectedGreen : unselected}`}
               >
                 <span className="w-10 h-10 sm:w-[66px] sm:h-[66px] rounded-[12px] sm:rounded-[18px] grid place-items-center bg-[rgba(70,135,255,0.16)] text-[#3b6fe0] dark:text-[#5d91ff]">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="sm:w-[34px] sm:h-[34px]">
@@ -107,10 +101,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => setDifficulty("advanced")}
-                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${difficulty === "advanced"
-                  ? "bg-[linear-gradient(180deg,rgba(121,184,76,0.28),rgba(121,184,76,0.10)),rgba(0,0,0,0.03)] outline outline-2 outline-[rgba(121,184,76,0.8)] dark:bg-[linear-gradient(180deg,rgba(121,184,76,0.24),rgba(121,184,76,0.08)),rgba(255,255,255,0.06)] dark:outline-[rgba(151,216,91,0.7)]"
-                  : "bg-black/[0.05] hover:-translate-y-0.5 hover:bg-black/[0.08] dark:bg-white/[0.055] dark:hover:bg-white/[0.09]"
-                  }`}
+                className={`h-20 sm:h-[128px] rounded-[16px] sm:rounded-[20px] flex flex-col items-center justify-center gap-1.5 sm:gap-3 text-sm sm:text-xl transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${difficulty === "advanced" ? selectedGreen : unselected}`}
               >
                 <span className="w-10 h-10 sm:w-[66px] sm:h-[66px] rounded-[12px] sm:rounded-[18px] grid place-items-center bg-[rgba(154,82,255,0.16)] text-[#7c3aed] dark:text-[#a061ff]">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" className="sm:w-[36px] sm:h-[36px]">
@@ -133,8 +124,8 @@ export default function Home() {
                   key={num}
                   onClick={() => setCount(num)}
                   className={`h-12 sm:h-[78px] rounded-[14px] sm:rounded-[18px] text-base sm:text-2xl font-extrabold transition duration-200 shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] ${count === num
-                    ? "bg-[linear-gradient(180deg,rgba(154,82,255,0.22),rgba(154,82,255,0.06)),rgba(0,0,0,0.03)] outline outline-2 outline-[rgba(124,58,237,0.6)] text-[#7c3aed] dark:bg-[linear-gradient(180deg,rgba(154,82,255,0.28),rgba(154,82,255,0.08)),rgba(255,255,255,0.06)] dark:outline-[rgba(160,97,255,0.8)] dark:text-[#d8c1ff]"
-                    : "bg-black/[0.05] hover:-translate-y-0.5 hover:bg-black/[0.08] dark:bg-white/[0.055] dark:hover:bg-white/[0.09]"
+                    ? "bg-[linear-gradient(180deg,rgba(154,82,255,0.22),rgba(154,82,255,0.06))] outline outline-2 outline-[rgba(124,58,237,0.6)] text-[#7c3aed] dark:bg-[linear-gradient(180deg,rgba(154,82,255,0.28),rgba(154,82,255,0.08))] dark:outline-[rgba(160,97,255,0.8)] dark:text-[#d8c1ff]"
+                    : unselected
                     }`}
                 >
                   {num}

@@ -25,10 +25,11 @@ export default function Header() {
         className="
           w-full max-w-[860px] flex items-center gap-3 sm:gap-[22px]
           p-3 sm:px-9 sm:py-7 rounded-[20px] sm:rounded-[24px]
-          bg-[linear-gradient(135deg,rgba(35,45,41,0.96),rgba(18,28,25,0.96))]
-          dark:bg-[linear-gradient(135deg,rgba(255,255,255,0.045),rgba(255,255,255,0.015)),rgba(12,22,19,0.72)]
-          border border-white/12
-          shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_28px_70px_rgba(0,0,0,0.35)]
+          bg-white border border-black/10
+          shadow-[0_28px_70px_rgba(0,0,0,0.12)]
+          dark:bg-[linear-gradient(135deg,rgba(30,42,38,0.78),rgba(12,22,19,0.72))]
+          dark:border-white/12
+          dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_28px_70px_rgba(0,0,0,0.35)]
           backdrop-blur-xl
         "
       >
@@ -54,8 +55,8 @@ export default function Header() {
               <span
                 className="
                   text-[27px] sm:text-[34px] md:text-[46px] font-black tracking-[0.01em]
-                  text-[#f5f5f0]
-                  [text-shadow:0_2px_0_rgba(0,0,0,0.35),0_6px_18px_rgba(0,0,0,0.35)]
+                  text-[#171717] dark:text-[#f5f5f0]
+                  dark:[text-shadow:0_2px_0_rgba(0,0,0,0.35),0_6px_18px_rgba(0,0,0,0.35)]
                 "
               >
                 Bird Id
@@ -90,8 +91,8 @@ export default function Header() {
             className="
               flex items-center gap-2 sm:gap-3
               text-[15px] sm:text-lg md:text-2xl font-medium
-              text-white/78
-              [text-shadow:0_2px_8px_rgba(0,0,0,0.4)]
+              text-black/72 dark:text-white/78
+              dark:[text-shadow:0_2px_8px_rgba(0,0,0,0.4)]
             "
           >
             <span>Learn</span>
