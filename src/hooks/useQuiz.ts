@@ -48,6 +48,7 @@ export function useQuiz({ type, countParam }: UseQuizParams): UseQuizResult {
     const [showAnswer, setShowAnswer] = useState(false);
     const [score, setScore] = useState(0);
     const [totalQuestions, setTotalQuestions] = useState(0);
+    const [finished, setFinished] = useState(false);
 
     // Build the question set once the source data is available.
     useEffect(() => {
@@ -70,16 +71,21 @@ export function useQuiz({ type, countParam }: UseQuizParams): UseQuizResult {
     }, [currentQuestion]);
 
     const askNext = useCallback(() => {
-        setQuestionsToAsk((prev) => {
-            if (prev.length === 0) {
-                router.push(`/complete?score=${score}&total=${totalQuestions}`);
-                return prev;
-            }
-            const idx = Math.floor(Math.random() * prev.length);
-            setCurrentQuestion(prev[idx]);
-            return prev.filter((_, i) => i !== idx);
-        });
-    }, [router, score, totalQuestions]);
+        if (questionsToAsk.length === 0) {
+            setFinished(true);
+            return;
+        }
+        const idx = Math.floor(Math.random() * questionsToAsk.length);
+        setCurrentQuestion(questionsToAsk[idx]);
+        setQuestionsToAsk((prev) => prev.filter((_, i) => i !== idx));
+    }, [questionsToAsk]);
+
+    // Navigate to the completion screen once the quiz is finished.
+    useEffect(() => {
+        if (finished) {
+            router.push(`/complete?score=${score}&total=${totalQuestions}`);
+        }
+    }, [finished, router, score, totalQuestions]);
 
     const next = useCallback(() => {
         askNext();
