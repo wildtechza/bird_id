@@ -65,7 +65,7 @@ export const primaryButton = [
 
 /** Secondary / ghost button (View Answer). */
 export const ghostButton = [
-  "bg-black/[0.05] text-[#171717] dark:bg-white/[0.055] dark:text-white font-bold",
+  "bg-red-500/15 text-[#171717] dark:bg-red-500/20 dark:text-white font-bold",
   "shadow-[inset_0_1px_0_rgba(0,0,0,0.04)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]",
-  "transition duration-200 hover:-translate-y-0.5 hover:bg-black/[0.08] dark:hover:bg-white/[0.09]",
+  "transition duration-200 hover:-translate-y-0.5 hover:bg-red-500/25 dark:hover:bg-red-500/30",
 ].join(" ");
